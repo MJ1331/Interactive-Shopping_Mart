@@ -57,8 +57,8 @@ import win32com.client as mouth
  
 connection = pymysql.connect(host='localhost', 
                              user='root', 
-                             password='junaidh0', 
-                             db='dream_mart') 
+                             password='*******', #Enter your password to MySQL here
+                             db='Dream_mart') 
  
 cursor = connection.cursor() 
  
