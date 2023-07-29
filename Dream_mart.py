@@ -967,8 +967,7 @@ while menu=='y' or menu=='Y':
      
     voice.Speak('press 4 to know about the datas of dream mart ') 
      
-    print(colored('4. DATA VISUALISATION OF DREAM 
-MART'.center(180),'yellow')) 
+    print(colored('4. DATA VISUALISATION OF DREAM MART'.center(180),'yellow')) 
      
     voice.Speak('press 5 to leave dream mart ') 
      
@@ -1049,14 +1048,11 @@ MART'.center(180),'yellow'))
  
         vol.voice 
  
-        vol.SetVoice(v.Item(speaker_number)) 
-         
-         
+        vol.SetVoice(v.Item(speaker_number))           
          
         vol.Speak('welcome to game corner') 
          
-        display(Image(r'C:\Users\Junaidh\Desktop\Ip project\game 
-corner.png',width="1000", height="500")) 
+        display(Image(r'C:\Users\Junaidh\Desktop\Ip project\game corner.png',width="1000", height="500")) 
                 
         print(colored("WELCOME TO GAME CORNER".center(200),'green')) 
          
@@ -1064,10 +1060,7 @@ corner.png',width="1000", height="500"))
          
         vol.Speak('i am dweam') 
          
-        vol.Speak('i will be guiding you throughout the game corner and play against 
-you') 
-#34 
- 
+        vol.Speak('i will be guiding you throughout the game corner and play against you') 
          
         game='y' 
          
@@ -1077,8 +1070,7 @@ you')
              
             vol.Speak("DO YOU WANT TO VISIT GAME CORNER") 
              
-            print(colored("DO YOU WANT TO VISIT GAME CORNER  (Y/N)  : 
-",'yellow')) 
+            print(colored("DO YOU WANT TO VISIT GAME CORNER  (Y/N)  : ",'yellow')) 
              
             gg=input( ) 
              
@@ -1112,8 +1104,6 @@ you')
              
                 print(colored('5. HEADS OR TAILS'.center(150),'yellow')) 
                  
-#35 
- 
                 vol.Speak('press 6 to play dice rolling') 
              
                 print(colored('6. DICE ROLLING'.center(150),'yellow')) 
@@ -1135,8 +1125,7 @@ you')
                 game_choice=int(input( )) 
                  
                 print('\n') 
-                 
-                                     
+                                                      
 #CHECKING DREAM COINS 
                  
                 if game_choice==1: 
@@ -1151,15 +1140,11 @@ you')
                      
                     vol.Speak('do you want to withdraw your dream coins') 
                      
-                    print(colored("DO YOU WANT TO WITHDRAW YOUR DREAM 
-COINS",'green')) 
+                    print(colored("DO YOU WANT TO WITHDRAW YOUR DREAM COINS",'green')) 
                      
                     vol.Speak('note if you exit from game corner your dream coins reset') 
                      
-                    print(colored("NOTE : IF YOU EXIT FROM GAME CORNER YOUR 
-DREAM COINS RESET",'cyan'))    
-#36 
- 
+                    print(colored("NOTE : IF YOU EXIT FROM GAME CORNER YOUR DREAM COINS RESET",'cyan'))    
                      
                     coin=input() 
                      
@@ -1171,8 +1156,7 @@ DREAM COINS RESET",'cyan'))
                              
                             vol.Speak('YOU HAVE NOT EARNED ANY DREAM COIN') 
                              
-                            print(colored('YOU HAVE NOT EARNED ANY DREAM 
-COIN','red')) 
+                            print(colored('YOU HAVE NOT EARNED ANY DREAM COIN','red')) 
                              
                             print('\n') 
                              
@@ -1192,8 +1176,7 @@ COIN','red'))
                              
                             #10% DISCOUNT COUPON 
                              
-                            print(colored("YOU HAVE ",'red'),count,colored(" DREAM 
-COINS",'red')) 
+                            print(colored("YOU HAVE ",'red'),count,colored(" DREAM COINS",'red')) 
                              
                             print('\n') 
                              
@@ -1202,11 +1185,8 @@ COINS",'red'))
                             print(colored('YOU GOT 10% OFF ���','yellow')) 
                              
                             notification.notify(title = 'DREAM MART', 
-                                                message = 'YOU GOT 10% OFF  ��',    
-#37 
- 
-                                                app_icon 
-=r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",   
+                                                message = 'YOU GOT 10% OFF  ��',     
+                                                app_icon =r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",   
                                                 timeout = 1000) 
                              
                             print('\n') 
@@ -1217,8 +1197,7 @@ COINS",'red'))
                              
                             print('\n') 
                              
-                            message = 'Subject: {}\n\n{}'.format('A GIFT FROM DREAM 
-MART','ENTER DC10 TO GET 10% OFF IN YOUR FINAL BILL' ) 
+                            message = 'Subject: {}\n\n{}'.format('A GIFT FROM DREAM MART','ENTER DC10 TO GET 10% OFF IN YOUR FINAL BILL' ) 
                              
                             server=smtplib.SMTP('smtp.gmail.com',587) 
                              
@@ -1234,22 +1213,18 @@ MART','ENTER DC10 TO GET 10% OFF IN YOUR FINAL BILL' )
                              
                             vol.Speak('enter the code sent to your mail to get 10 percent off') 
                                
-                            print("✨",colored('ENTER THE CODE SENT TO YOUR MAIL 
-TO GET 10% OFF','red'),"✨") 
+                            print("✨",colored('ENTER THE CODE SENT TO YOUR MAIL TO GET 10% OFF','red'),"✨") 
                              
                             print('\n') 
                              
                             notification.notify(title = 'DREAM MART', 
                                                 message = 'CHECK YOUR MAIL��',    
-                                                app_icon 
-=r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",   
+                                                app_icon =r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",   
                                                 timeout = 1000) 
                              
                             vol.Speak('check you mail') 
                              
                             print(colored('CHECK YOU MAIL','red')) 
-                             
-#38 
  
                             print('\n') 
                              
@@ -1267,8 +1242,7 @@ TO GET 10% OFF','red'),"✨")
                              
                             notification.notify(title = 'DREAM MART', 
                                                 message = 'YOU GOT 15% OFF ��', 
-                                                app_icon 
-=r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",  
+                                                app_icon =r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",  
                                                 timeout = 1000) 
                              
                             print('\n') 
@@ -1279,8 +1253,7 @@ TO GET 10% OFF','red'),"✨")
                              
                             print('\n') 
                              
-                            message = 'Subject: {}\n\n{}'.format('A GIFT FROM DREAM 
-MART','ENTER DC10 TO GET 15% OFF IN YOUR FINAL BILL' ) 
+                            message = 'Subject: {}\n\n{}'.format('A GIFT FROM DREAM MART','ENTER DC10 TO GET 15% OFF IN YOUR FINAL BILL' ) 
                              
                             server=smtplib.SMTP('smtp.gmail.com',587) 
                              
@@ -1294,19 +1267,15 @@ MART','ENTER DC10 TO GET 15% OFF IN YOUR FINAL BILL' )
                              
                             server.close() 
                              
-                            vol.Speak('enter the code sent to your mail to get 15 percent off') 
-#39 
- 
+                            vol.Speak('enter the code sent to your mail to get 15 percent off')  
                                
-                            print("✨",colored('ENTER THE CODE SENT TO YOUR MAIL 
-TO GET 15% OFF','red'),"✨") 
+                            print("✨",colored('ENTER THE CODE SENT TO YOUR MAIL TO GET 15% OFF','red'),"✨") 
                              
                             print('\n') 
                              
                             notification.notify(title = 'DREAM MART', 
                                                 message = 'CHECK YOUR MAIL��',    
-                                                app_icon 
-=r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",   
+                                                app_icon =r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",   
                                                 timeout = 1000) 
                              
                             vol.Speak('check you mail') 
@@ -1329,8 +1298,7 @@ TO GET 15% OFF','red'),"✨")
                              
                             notification.notify(title = 'DREAM MART', 
                                                 message = 'YOU GOT 25% OFF��',   
-                                                app_icon 
-=r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",   
+                                                app_icon =r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",   
                                                 timeout = 1000) 
                              
                             print('\n') 
@@ -1340,11 +1308,8 @@ TO GET 15% OFF','red'),"✨")
                             email=input() 
                              
                             print('\n') 
-                             
-#40 
  
-                            message = 'Subject: {}\n\n{}'.format('A GIFT FROM DREAM 
-MART','ENTER DC10 TO GET 25% OFF IN YOUR FINAL BILL' ) 
+                            message = 'Subject: {}\n\n{}'.format('A GIFT FROM DREAM MART','ENTER DC10 TO GET 25% OFF IN YOUR FINAL BILL' ) 
                              
                             server=smtplib.SMTP('smtp.gmail.com',587) 
                              
@@ -1360,15 +1325,13 @@ MART','ENTER DC10 TO GET 25% OFF IN YOUR FINAL BILL' )
                              
                             vol.Speak('enter the code sent to your mail to get 25 percent off') 
                                
-                            print("✨",colored('ENTER THE CODE SENT TO YOUR MAIL 
-TO GET 25% OFF','red'),"✨") 
+                            print("✨",colored('ENTER THE CODE SENT TO YOUR MAIL TO GET 25% OFF','red'),"✨") 
                              
                             print('\n') 
                              
                             notification.notify(title = 'DREAM MART', 
                                                 message = 'CHECK YOUR MAIL��',    
-                                                app_icon 
-=r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",   
+                                                app_icon =r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",   
                                                 timeout = 1000) 
                              
                             vol.Speak('check you mail') 
@@ -1378,16 +1341,13 @@ TO GET 25% OFF','red'),"✨")
                             print('\n') 
                                
                 elif game_choice==2: 
-                     
-                 
+                                      
 #NUMBER GUESSING GAME 
                      
                  
                     c='y' 
  
                     while c=='y': 
-                         
-#41 
  
                         vol.Speak("Enter a number between 1 to 10") 
                      
@@ -1419,8 +1379,7 @@ TO GET 25% OFF','red'),"✨")
                              
                             notification.notify(title = 'DREAM MART', 
                                                 message = 'CHECK YOUR DREAM COINS ��', 
-                                                app_icon 
-=r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",  
+                                                app_icon =r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",  
                                                 timeout = 600) 
                  
                             count+=1000 
@@ -1432,8 +1391,6 @@ TO GET 25% OFF','red'),"✨")
                             vol.Speak("enter a number between 1 to 10") 
          
                             print(colored("ENTER A NUMBER BETWEEN 1-10...",'red')) 
-             
-#42 
  
                             print('\n') 
          
@@ -1447,17 +1404,13 @@ TO GET 25% OFF','red'),"✨")
              
                             print('\n') 
                  
-                            print(colored("DO YOU WANT TO CONTINE ?? (Y/N) 
-",'yellow')) 
+                            print(colored("DO YOU WANT TO CONTINE ?? (Y/N) ",'yellow')) 
      
                             c=input() 
          
                             print('\n') 
-             
-             
-         
-                elif game_choice==3: 
-                 
+                                  
+                elif game_choice==3:             
              
 #TIK TAK TOE 
                  
@@ -1478,8 +1431,6 @@ TO GET 25% OFF','red'),"✨")
                         print('   ' + board[1] + ' | ' + board[2] + ' | ' + board[3]) 
                      
                         print('__  __ __ ') 
-                     
-#43 
  
                         print('   ' + board[4] + ' | ' + board[5] + ' | ' + board[6]) 
                      
@@ -1503,8 +1454,7 @@ or(bo[3] == le and bo[5] == le and bo[7] == le)
                              
                             vol.Speak('Please select a position to place X : ') 
                              
-                            print(colored("PLEASE SELECT A POSITION TO PLACE X (1
-9)",'yellow')) 
+                            print(colored("PLEASE SELECT A POSITION TO PLACE X (1-9)",'yellow')) 
                          
                             move = input( ) 
                              
@@ -1525,11 +1475,8 @@ or(bo[3] == le and bo[5] == le and bo[7] == le)
                                     else: 
                                          
                                         vol.Speak('Sorry, this space is occupied') 
-#44 
- 
                                          
-                                        print(colored('SORRY, THIS SPACE IS OCCUPIED 
-!','red')) 
+                                        print(colored('SORRY, THIS SPACE IS OCCUPIED !','red')) 
                                          
                                         print('\n') 
                              
@@ -1537,8 +1484,7 @@ or(bo[3] == le and bo[5] == le and bo[7] == le)
                                      
                                     vol.Speak('Please type a number within the range') 
                                  
-                                    print(colored('PLEASE TYPE A NUMBER WITHIN THE 
-RANGE !','red')) 
+                                    print(colored('PLEASE TYPE A NUMBER WITHIN THE RANGE !','red')) 
                                      
                                     print('\n') 
                                  
@@ -1552,8 +1498,7 @@ RANGE !','red'))
                  
                     def compMove(): 
                      
-                        possibleMoves = [x for x, letter in enumerate(board) if letter == ' ' and 
-x != 0] 
+                        possibleMoves = [x for x, letter in enumerate(board) if letter == ' ' and x != 0] 
                      
                         move = 0 
  
@@ -1570,8 +1515,6 @@ x != 0]
                                     move = i 
                                  
                                     return move 
- 
-#45 
  
                         cornersOpen = [] 
                      
@@ -1616,8 +1559,6 @@ x != 0]
                         return li[r] 
      
                     def isBoardFull(board): 
-     
-#46 
  
                         if board.count(' ') > 1: 
          
@@ -1662,8 +1603,6 @@ x != 0]
                                     vol.Speak('game tied') 
                  
                                     print(colored('TIE GAME !','red')) 
-                     
-#47 
  
                                     print('\n') 
              
@@ -1673,9 +1612,7 @@ x != 0]
                      
                                     vol.Speak("computer placed O") 
                  
-                                    print(colored('COMPUTER PLACED AN \'O\' IN 
-POSITION','yellow') 
-                                          , move , ' : ') 
+                                    print(colored('COMPUTER PLACED AN \'O\' IN POSITION','yellow') , move , ' : ') 
                      
                                     print('\n') 
                  
@@ -1684,8 +1621,7 @@ POSITION','yellow')
                             else: 
                  
                                 vol.Speak('congratulation you won ') 
-                                print(colored('X\'s WON THIS TIME ! GOOD JOB ! ��� 
-','red')) 
+                                print(colored('X\'s WON THIS TIME ! GOOD JOB ! ��� ','red')) 
                  
                                 print('\n') 
                              
@@ -1703,14 +1639,11 @@ POSITION','yellow')
                          
                         vol.Speak('Do you want to play tik tac toe') 
                          
-                        print(colored('DO YOU WANT TO PLAY TIK TAK TOE ?? (Y/N) 
-','yellow')) 
+                        print(colored('DO YOU WANT TO PLAY TIK TAK TOE ?? (Y/N) ','yellow')) 
                      
                         answer = input() 
                          
-                        print('\n') 
-#48 
- 
+                        print('\n')  
      
                         if answer.lower() == 'y': 
          
@@ -1726,8 +1659,7 @@ POSITION','yellow')
                  
  
                 elif game_choice==4: 
-                     
-                 
+                                      
 #ROCK,PAPER & SCISSORS 
                  
                     rps='y' 
@@ -1736,8 +1668,7 @@ POSITION','yellow')
                          
                         vol.Speak("enter r for rock p for paper and s for scissors") 
      
-                        print(colored("ENTER ROCK(R) , PAPER(P) OR 
-SCISSORS(S)",'yellow')) 
+                        print(colored("ENTER ROCK(R) , PAPER(P) OR SCISSORS(S)",'yellow')) 
      
                         rps1 = input( ) 
      
@@ -1749,15 +1680,12 @@ SCISSORS(S)",'yellow'))
          
                             if computer_action=='s': 
              
-                                display(Image(r'C:\Users\Junaidh\Desktop\Ip 
-project\rp3.png',width="550", height="400")) 
+                                display(Image(r'C:\Users\Junaidh\Desktop\Ip project\rp3.png',width="550", height="400")) 
                  
                                 print('\n') 
                  
                                 vol.Speak('you won') 
-#49 
- 
-            
+             
                                 print(colored("YOU WON",'red')," ���") 
                  
                                 print('\n') 
@@ -1770,8 +1698,7 @@ project\rp3.png',width="550", height="400"))
                          
                                 notification.notify(title = 'DREAM MART', 
                                                 message = 'CHECK YOUR DREAM COINS ��', 
-                                                app_icon 
-=r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",  
+                                                app_icon =r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",  
                                                 timeout = 600)                         
                                  
                                 print('\n') 
@@ -1780,8 +1707,7 @@ project\rp3.png',width="550", height="400"))
              
                             elif computer_action=='r': 
                            
-                                display(Image(r'C:\Users\Junaidh\Desktop\Ip 
-project\rps2.png',width="550", height="400")) 
+                                display(Image(r'C:\Users\Junaidh\Desktop\Ip project\rps2.png',width="550", height="400")) 
                              
                                 vol.Speak("THE MATCH DRAWED") 
                            
@@ -1791,19 +1717,15 @@ project\rps2.png',width="550", height="400"))
                              
                                 vol.Speak('DO YOU WANT TO PLAY AGAIN') 
                            
-                                print(colored("DO YOU WANT TO PLAY AGAIN (Y/N)  : 
-",'yellow')) 
+                                print(colored("DO YOU WANT TO PLAY AGAIN (Y/N)  : ",'yellow')) 
                            
                                 rps=input() 
                              
                                 print('\n') 
              
                             else: 
-             
-#50 
  
-                                display(Image(r'C:\Users\Junaidh\Desktop\Ip 
-project\rps5.png',width="550", height="400")) 
+                                display(Image(r'C:\Users\Junaidh\Desktop\Ip project\rps5.png',width="550", height="400")) 
                  
                                 vol.Speak('you lost') 
              
@@ -1813,8 +1735,7 @@ project\rps5.png',width="550", height="400"))
                      
                                 vol.Speak('DO YOU WANT TO PLAY AGAIN') 
                            
-                                print(colored("DO YOU WANT TO PLAY AGAIN (Y/N)  : 
-",'yellow')) 
+                                print(colored("DO YOU WANT TO PLAY AGAIN (Y/N)  : ",'yellow')) 
                            
                                 rps=input() 
                              
@@ -1824,8 +1745,7 @@ project\rps5.png',width="550", height="400"))
                            
                             if computer_action=='s': 
                            
-                                display(Image(r'C:\Users\Junaidh\Desktop\Ip 
-project\rps8.png',width="550", height="400")) 
+                                display(Image(r'C:\Users\Junaidh\Desktop\Ip project\rps8.png',width="550", height="400")) 
                            
                                 vol.Speak("THE MATCH DRAWED") 
                          
@@ -1835,8 +1755,7 @@ project\rps8.png',width="550", height="400"))
                              
                                 vol.Speak("DO YOU WANT TO PLAY AGAIN") 
                            
-                                print(colored("DO YOU WANT TO PLAY AGAIN (Y/N)  : 
-",'yellow')) 
+                                print(colored("DO YOU WANT TO PLAY AGAIN (Y/N)  : ",'yellow')) 
              
                                 rps=input()  
                  
@@ -1844,10 +1763,7 @@ project\rps8.png',width="550", height="400"))
                            
                             elif computer_action=='r': 
                            
-                                display(Image(r'C:\Users\Junaidh\Desktop\Ip 
-project\rps4.png',width="550", height="400")) 
-#51 
- 
+                                display(Image(r'C:\Users\Junaidh\Desktop\Ip project\rps4.png',width="550", height="400")) 
                            
                                 vol.Speak('you lost') 
                              
@@ -1857,8 +1773,7 @@ project\rps4.png',width="550", height="400"))
                                  
                                 vol.Speak("do you want to play again") 
                            
-                                print(colored("DO YOU WANT TO PLAY AGAIN (Y/N)  : 
-",'yellow')) 
+                                print(colored("DO YOU WANT TO PLAY AGAIN (Y/N)  : ",'yellow')) 
                            
                                 rps=input() 
                            
@@ -1867,8 +1782,7 @@ project\rps4.png',width="550", height="400"))
                              
                             else: 
              
-                                display(Image(r'C:\Users\Junaidh\Desktop\Ip 
-project\rps9.png',width="550", height="400")) 
+                                display(Image(r'C:\Users\Junaidh\Desktop\Ip project\rps9.png',width="550", height="400")) 
                  
                                 vol.Speak('you won') 
                            
@@ -1882,8 +1796,7 @@ project\rps9.png',width="550", height="400"))
                          
                                 notification.notify(title = 'DREAM MART', 
                                                 message = 'CHECK YOUR DREAM COINS ��', 
-                                                app_icon 
-=r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",  
+                                                app_icon =r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",  
                                                 timeout = 600) 
                                          
                          
@@ -1891,24 +1804,19 @@ project\rps9.png',width="550", height="400"))
                          
                                 count+=300 
                            
-                                break 
-#52 
- 
-                             
+                                break                             
                            
                         else: 
          
                             if computer_action=='s': 
              
-                                display(Image(r'C:\Users\Junaidh\Desktop\Ip 
-project\rps1.png',width="550", height="400")) 
+                                display(Image(r'C:\Users\Junaidh\Desktop\Ip project\rps1.png',width="550", height="400")) 
                            
                                 print(colored("YOU LOST",'red')) 
                          
                                 print('\n') 
                            
-                                print(colored("DO YOU WANT TO PLAY AGAIN (Y/N)  : 
-",'yellow')) 
+                                print(colored("DO YOU WANT TO PLAY AGAIN (Y/N)  : ",'yellow')) 
                            
                                 rps=input() 
                                        
@@ -1916,8 +1824,7 @@ project\rps1.png',width="550", height="400"))
                                        
                             elif computer_action=='r': 
                            
-                                display(Image(r'C:\Users\Junaidh\Desktop\Ip 
-project\rps7.png',width="550", height="400")) 
+                                display(Image(r'C:\Users\Junaidh\Desktop\Ip project\rps7.png',width="550", height="400")) 
                              
                                 vol.Speak('you won') 
                            
@@ -1931,24 +1838,19 @@ project\rps7.png',width="550", height="400"))
                          
                                 notification.notify(title = 'DREAM MART', 
                                                 message = 'CHECK YOUR DREAM COINS ��', 
-                                                app_icon 
-=r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",  
+                                                app_icon =r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",  
                                                 timeout = 600) 
                  
                         
                                 print('\n') 
-                             
-#53 
  
                                 count+=300 
                            
                                 break 
-                                       
-                           
+                                                                 
                             else: 
              
-                                display(Image(r'C:\Users\Junaidh\Desktop\Ip 
-project\rps6.png',width="550", height="400")) 
+                                display(Image(r'C:\Users\Junaidh\Desktop\Ip project\rps6.png',width="550", height="400")) 
                  
                                 vol.Speak("THE MATCH DRAWED") 
                            
@@ -1958,17 +1860,14 @@ project\rps6.png',width="550", height="400"))
                              
                                 vol.Speak("DO YOU WANT TO PLAY AGAIN") 
                            
-                                print(colored("DO YOU WANT TO PLAY AGAIN (Y/N)  : 
-",'yellow')) 
+                                print(colored("DO YOU WANT TO PLAY AGAIN (Y/N)  : ",'yellow')) 
                            
                                 rps=input() 
                              
                                 print('\n') 
-                                       
-                     
+                                                          
                 elif game_choice==5:  
-                     
-                 
+                                 
 #HEADS OR TAILS 
                  
                     ht4='y' 
@@ -1984,8 +1883,6 @@ project\rps6.png',width="550", height="400"))
                         ht=input() 
                                        
                         print('\n') 
-#54 
- 
  
                         ht2=['h','t'] 
  
@@ -1995,8 +1892,7 @@ project\rps6.png',width="550", height="400"))
      
                             if ht1=='h': 
          
-                                display(Image(r'C:\Users\Junaidh\Desktop\Ip 
-project\heads.png',width="650", height="400")) 
+                                display(Image(r'C:\Users\Junaidh\Desktop\Ip project\heads.png',width="650", height="400")) 
                                        
                                 vol.Speak("You won") 
          
@@ -2004,11 +1900,9 @@ project\heads.png',width="650", height="400"))
              
                                 notification.notify(title = 'DREAM MART', 
                                             message = 'CHECK YOUR DREAM COINS ��', 
-                                            app_icon 
-=r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",  
-                                            timeout = 600) 
-                 
-                                       
+                                            app_icon =r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",  
+                                            timeout = 600)                  
+                                      
                                 print('\n') 
              
                                 count+=100 
@@ -2023,14 +1917,11 @@ project\heads.png',width="650", height="400"))
          
                             else: 
          
-                                display(Image(r'C:\Users\Junaidh\Desktop\Ip 
-project\tail.png',width="650", height="400")) 
+                                display(Image(r'C:\Users\Junaidh\Desktop\Ip project\tail.png',width="650", height="400")) 
                                        
                                 vol.Speak("You lost") 
                                        
                                 print(colored("YOU LOST",'red')) 
-                                       
-#55 
  
                                 print('\n') 
                                        
@@ -2046,8 +1937,7 @@ project\tail.png',width="650", height="400"))
      
                             if ht1=='h': 
          
-                                display(Image(r'C:\Users\Junaidh\Desktop\Ip 
-project\heads.png',width="650", height="400")) 
+                                display(Image(r'C:\Users\Junaidh\Desktop\Ip project\heads.png',width="650", height="400")) 
          
                                 vol.Speak("You lost") 
                                        
@@ -2065,8 +1955,7 @@ project\heads.png',width="650", height="400"))
          
                             else: 
          
-                                display(Image(r'C:\Users\Junaidh\Desktop\Ip 
-project\tail.png',width="650", height="400")) 
+                                display(Image(r'C:\Users\Junaidh\Desktop\Ip project\tail.png',width="650", height="400")) 
          
                                 vol.Speak("You won") 
          
@@ -2074,10 +1963,7 @@ project\tail.png',width="650", height="400"))
              
                                 notification.notify(title = 'DREAM MART', 
                                                 message = 'CHECK YOUR DREAM COINS ��', 
-                                                app_icon 
-=r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",  
-#56 
- 
+                                                app_icon =r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",  
                                                 timeout = 600) 
                  
                                        
@@ -2091,12 +1977,10 @@ project\tail.png',width="650", height="400"))
              
                                 ht4=input() 
                                        
-                                print('\n') 
- 
+                                print('\n')  
      
                 elif game_choice==6: 
-             
-             
+                          
 #DICE ROLLING 
                                        
                     player1_score = 0 
@@ -2122,8 +2006,6 @@ project\tail.png',width="650", height="400"))
                         print(colored("YOU ROLLED  : ",'yellow')) 
      
                         print(player2_value) 
-#57 
- 
                                        
                         print('\n') 
      
@@ -2168,8 +2050,6 @@ project\tail.png',width="650", height="400"))
                     vol.Speak("Computer's score") 
  
                     print(colored("COMPUTER'S SCORE",'red'), player1_score) 
-#58 
- 
                                        
                     print('\n') 
                                        
@@ -2189,10 +2069,8 @@ project\tail.png',width="650", height="400"))
                          
                         notification.notify(title = 'DREAM MART', 
                                                 message = 'CHECK YOUR DREAM COINS ��', 
-                                                app_icon 
-=r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",  
-                                                timeout = 600) 
-                 
+                                                app_icon =r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",  
+                                                timeout = 600)                  
                                        
                         print('\n') 
                          
@@ -2204,17 +2082,13 @@ project\tail.png',width="650", height="400"))
                          
                         print("YOU LOST :(  ") 
                                        
-                        print('\n') 
-                         
+                        print('\n')                       
                                                    
                 if game_choice==7: 
-                     
-                     
-#HANGMAN 
+                                    
+                #HANGMAN 
                                        
                     vol.Speak('press 1 to find marvel characters') 
-                                       
-#59 
  
                     print(colored("1. MARVEL CHARACTERS",'yellow')) 
                                        
@@ -2260,8 +2134,6 @@ project\tail.png',width="650", height="400"))
                                 for letter in word: 
                                  
                                     if letter in guessmade: 
-#60 
- 
                                      
                                         main = main + letter 
                                  
@@ -2306,8 +2178,6 @@ project\tail.png',width="650", height="400"))
                                     print(colored("CAPITAL LETTERS ARE INVALID",'red')) 
                                  
                                     guess = input() 
-#61 
- 
                                        
                                     print('\n') 
  
@@ -2352,8 +2222,6 @@ project\tail.png',width="650", height="400"))
                                         print("  --------  ") 
                                      
                                         print("     O      ") 
-#62 
- 
                                      
                                         print("     |      ") 
                                        
@@ -2398,8 +2266,6 @@ project\tail.png',width="650", height="400"))
                                     if turns == 4: 
                                      
                                         vol.Speak("4 turns left") 
-#63 
- 
                                      
                                         print(colored("4 TURNS LEFT",'red')) 
                                      
@@ -2444,8 +2310,6 @@ project\tail.png',width="650", height="400"))
                                         print("  --------  ") 
                                      
                                         print("   \ O /|   ") 
-#64 
- 
                                      
                                         print("     |      ") 
                                      
@@ -2463,8 +2327,7 @@ project\tail.png',width="650", height="400"))
                                      
                                         vol.Speak("Last breaths counting Take care") 
                                        
-                                        print(colored("LAST BREATHS COUNTING. TAKE 
-CARE ! ",'red')) 
+                                        print(colored("LAST BREATHS COUNTING. TAKE CARE ! ",'red')) 
                                        
                                         print('\n') 
                                      
@@ -2488,10 +2351,7 @@ CARE ! ",'red'))
                                      
                                         vol.Speak("You let a kind and poor man die") 
                                        
-                                        print(colored("YOU LET A KIND AND POOR MAN 
-DIE"),'cyan') 
-#65 
- 
+                                        print(colored("YOU LET A KIND AND POOR MAN DIE"),'cyan') 
                                        
                                         print('\n') 
                                      
@@ -2519,8 +2379,7 @@ DIE"),'cyan')
                                        
                         vol.Speak("try to guess the word in less than 10 attempts") 
                      
-                        print(colored("TRY TO GUESS THE WORD IN LESS THAN 10 
-ATTEMPTS",'red')) 
+                        print(colored("TRY TO GUESS THE WORD IN LESS THAN 10 ATTEMPTS",'red')) 
                      
                         print('\n')   
                                        
@@ -2534,9 +2393,7 @@ ATTEMPTS",'red'))
  
                     elif hang==2: 
                                        
-                        def hangman(): 
-                         
-#66 
+                        def hangman():                          
  
                             word = random.choice(["viratkholi" ,  
                                                   "rohitsharma" , 
@@ -2582,8 +2439,6 @@ ATTEMPTS",'red'))
                                     break 
                                        
                                 vol.Speak('guess the word') 
-#67 
- 
  
                                 print(colored("GUESS THE WORD : ",'yellow') , main) 
                              
@@ -2628,8 +2483,6 @@ ATTEMPTS",'red'))
                                         print('\n') 
                                  
                                     if turns == 8: 
-#68 
- 
                                        
                                         vol.Speak("8 turns left") 
                                      
@@ -2674,8 +2527,6 @@ ATTEMPTS",'red'))
                                         print("     |      ") 
                                      
                                         print("    /       ") 
-#69 
- 
                                        
                                         print('\n') 
                                  
@@ -2720,8 +2571,6 @@ ATTEMPTS",'red'))
                                         vol.Speak("3 turns left") 
                                      
                                         print(colored("3 TURNS LEFT",'red')) 
-#70 
- 
                                      
                                         print('\n') 
                                      
@@ -2763,11 +2612,8 @@ ATTEMPTS",'red'))
                                      
                                         vol.Speak("Last breaths counting Take care") 
                                        
-                                        print(colored("LAST BREATHS COUNTING. TAKE 
-CARE ! ",'red')) 
+                                        print(colored("LAST BREATHS COUNTING. TAKE CARE ! ",'red')) 
                                        
-#71 
- 
                                         print('\n') 
                                      
                                         print("  --------  ") 
@@ -2790,8 +2636,7 @@ CARE ! ",'red'))
                                      
                                         vol.Speak("You let a kind and poor man die") 
                                        
-                                        print(colored("YOU LET A KIND AND POOR MAN 
-DIE"),'cyan') 
+                                        print(colored("YOU LET A KIND AND POOR MAN DIE"),'cyan') 
                                        
                                         print('\n') 
                                      
@@ -2812,8 +2657,6 @@ DIE"),'cyan')
                         print(colored("*",'red')*150) 
  
                         print(colored("WELCOME TO HANGMAN".center(200),'yellow')) 
-#72 
- 
                      
                         print(colored("*",'red')*150) 
                                        
@@ -2821,8 +2664,7 @@ DIE"),'cyan')
                                        
                         vol.Speak("try to guess the word in less than 10 attempts") 
                      
-                        print(colored("TRY TO GUESS THE WORD IN LESS THAN 10 
-ATTEMPTS"),'red') 
+                        print(colored("TRY TO GUESS THE WORD IN LESS THAN 10 ATTEMPTS"),'red') 
                      
                         print('\n')   
                                        
@@ -2835,9 +2677,8 @@ ATTEMPTS"),'red')
                         hangman() 
  
                 if game_choice==8:  
-                     
-                     
-#HAND-CRICKET 
+                                        
+                #HAND-CRICKET 
                      
                     lst1= [1,2,3,4,5,6] 
  
@@ -2858,13 +2699,10 @@ ATTEMPTS"),'red')
                     print('\n') 
  
                     while no_of_chances_1 < chances_1: 
-#73 
- 
                  
                         vol.Speak("Enter Runs for Your Batting Turn") 
                  
-                        print(colored("ENTER RUNS FOR YOUR BATTING TURN  : 
-",'yellow')) 
+                        print(colored("ENTER RUNS FOR YOUR BATTING TURN  : ",'yellow')) 
      
                         runs= int(input()) 
          
@@ -2903,8 +2741,6 @@ ATTEMPTS"),'red')
                             print(your_runs) 
                              
                             print ("\n") 
-         
-#74 
  
                             break 
      
@@ -2912,8 +2748,7 @@ ATTEMPTS"),'red')
              
                             vol.Speak('enter a number between 1 to 6') 
          
-                            print(colored("ALERT!! ENTER A NUMBER BETWEEN 1
-6",'red')) 
+                            print(colored("ALERT!! ENTER A NUMBER BETWEEN 1-6",'red')) 
          
                             continue 
      
@@ -2950,9 +2785,7 @@ ATTEMPTS"),'red')
                     lst2= [1,2,3,4,5,6] 
  
                     chances_2= 18 
-#75 
- 
- 
+         
                     no_of_chances_2= 0 
  
                     comp_runs= 0 
@@ -2971,8 +2804,7 @@ ATTEMPTS"),'red')
                  
                         vol.Speak("Enter Runs for Your Bowling Turn ") 
                      
-                        print(colored("ENTER THE RUNS FOR YOUR BOWLING TURN : 
-",'yellow')) 
+                        print(colored("ENTER THE RUNS FOR YOUR BOWLING TURN : ",'yellow')) 
  
                         bowl= int(input()) 
                          
@@ -2995,8 +2827,6 @@ ATTEMPTS"),'red')
                             print(colored("YOUR GUESS : ",'yellow')) 
          
                             print (bowl) 
-             
-#76 
  
                             print('\n') 
                  
@@ -3041,8 +2871,6 @@ ATTEMPTS"),'red')
                             print(colored("COMPUTER RUNS NOW ARE :",'yellow')) 
          
                             print (comp_runs) 
-             
-#77 
  
                             print('\n') 
  
@@ -3088,8 +2916,6 @@ ATTEMPTS"),'red')
                         print(comp_runs) 
      
                         print('\n') 
-#78 
- 
          
                         vol.Speak("BOWLS TAKEN OUT OF 18") 
      
@@ -3109,8 +2935,7 @@ ATTEMPTS"),'red')
                      
                         notification.notify(title = 'DREAM MART', 
                                                 message = 'CHECK YOUR DREAM COINS ��', 
-                                                app_icon 
-=r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",  
+                                                app_icon =r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",  
                                                 timeout = 600) 
                  
      
@@ -3147,8 +2972,7 @@ ATTEMPTS"),'red')
                  
                             vol.Speak("Enter Runs for Your Batting Turn") 
                  
-                            print(colored("ENTER RUNS FOR YOUR BATTING TURN  : 
-",'yellow')) 
+                            print(colored("ENTER RUNS FOR YOUR BATTING TURN  : ",'yellow')) 
      
                             runs= int(input()) 
          
@@ -3196,8 +3020,7 @@ ATTEMPTS"),'red')
              
                                 vol.Speak('enter a number between 1 to 6') 
          
-                                print(colored("ALERT!! ENTER A NUMBER BETWEEN 1
-6",'red')) 
+                                print(colored("ALERT!! ENTER A NUMBER BETWEEN 16",'red')) 
          
                                 continue 
      
@@ -3224,9 +3047,7 @@ ATTEMPTS"),'red')
                                 vol.Speak("Your runs Now are") 
                              
                                 print(colored("YOUR RUNS NOW ARE :",'yellow')) 
-         
-#81 
- 
+        
                                 print (your_runs) 
              
                                 print('\n') 
@@ -3255,8 +3076,7 @@ ATTEMPTS"),'red')
                  
                             vol.Speak("Enter Runs for Your Bowling Turn ") 
                      
-                            print(colored("ENTER THE RUNS FOR YOUR BOWLING TURN 
-: ",'yellow')) 
+                            print(colored("ENTER THE RUNS FOR YOUR BOWLING TURN : ",'yellow')) 
  
                             bowl= int(input()) 
                          
@@ -3271,8 +3091,6 @@ ATTEMPTS"),'red')
                                 print(colored("COMPUTER GUESS : ",'yellow')) 
                          
                                 print(comp_bat) 
-#82 
- 
                              
                                 print('\n') 
                              
@@ -3317,7 +3135,8 @@ ATTEMPTS"),'red')
                                 print(colored("YOUR GUESS",'yellow')) 
                              
                                 print(bowl) 
- print('\n') 
+                                
+                                print('\n') 
                              
                                 vol.Speak("computer runs Now are") 
                              
@@ -3326,8 +3145,7 @@ ATTEMPTS"),'red')
                                 print (comp_runs) 
              
                                 print('\n') 
- 
- 
+  
                                 if comp_runs > your_runs: 
              
                                     break 
@@ -3359,8 +3177,6 @@ ATTEMPTS"),'red')
                             print(colored("BOWLS TAKEN (OUT OF 6) : ",'yellow')) 
      
                             print(no_of_chances_1+1) 
-     
-#84 
  
                             print('\n') 
          
@@ -3392,8 +3208,7 @@ ATTEMPTS"),'red')
                          
                             print('\n') 
          
-                            count+=200 
- 
+                            count+=200  
  
                     else: 
                      
@@ -3406,8 +3221,6 @@ ATTEMPTS"),'red')
                         print('\n') 
          
                         vol.Speak('bowls taken out of 6') 
-#85 
- 
              
                         print(colored("BOWLS TAKEN (OUT OF 6) : ",'yellow')) 
      
@@ -3429,8 +3242,7 @@ ATTEMPTS"),'red')
      
                         print(no_of_chances_1+1) 
      
-                        print('\n') 
-         
+                        print('\n')     
                          
             else: 
                  
@@ -3441,19 +3253,14 @@ ATTEMPTS"),'red')
                  
     if menu_choice==3: 
          
-        animation = ["LOADING [■□□□□□□□□□]","LOADING [■■□□□□□□□□]", 
-"LOADING [■■■□□□□□□□]",  
-             "LOADING [■■■■□□□□□□]", "LOADING [■■■■■□□□□□]", "LOADING 
-[■■■■■■□□□□]", 
-             "LOADING [■■■■■■■□□□]", "LOADING [■■■■■■■■□□]", "LOADING 
-[■■■■■■■■■□]",  
+        animation = ["LOADING [■□□□□□□□□□]","LOADING [■■□□□□□□□□]", "LOADING [■■■□□□□□□□]",  
+             "LOADING [■■■■□□□□□□]", "LOADING [■■■■■□□□□□]", "LOADING [■■■■■■□□□□]", 
+             "LOADING [■■■■■■■□□□]", "LOADING [■■■■■■■■□□]", "LOADING [■■■■■■■■■□]",  
              "LOADING [■■■■■■■■■■]"] 
          
         for i in range(len(animation)): 
      
             time.sleep(1) 
-#86 
- 
      
             sys.stdout.write("\r" + animation[i % len(animation)]) 
      
@@ -3498,29 +3305,24 @@ ATTEMPTS"),'red')
             #TO VIEW CART 
              
             if shop_choice==1: 
-#87 
- 
                  
                 sc='y' 
                  
                 while sc=='y' or sc=='Y': 
                      
                     pdf=pd.read_sql('select*from customers',connection) 
-                 
-                    
-print(colored(pdf.to_string(index=False).center(160),'green',attrs=['bold','dark','concealed'])) 
+                                   
+                    print(colored(pdf.to_string(index=False).center(160),'green',attrs=['bold','dark','concealed'])) 
                  
                     print('\n') 
                      
                     voice.Speak('press 1 to add more items to cart') 
                  
-                    print(colored('1. TO ADD MORE ITEMS TO 
-CART'.center(200),'yellow')) 
+                    print(colored('1. TO ADD MORE ITEMS TO CART'.center(200),'yellow')) 
                      
                     voice.Speak('press 2 to delete items from cart') 
                  
-                    print(colored('2. TO DELETE ITEMS FROM 
-CART'.center(200),'yellow')) 
+                    print(colored('2. TO DELETE ITEMS FROM CART'.center(200),'yellow')) 
                      
                     voice.Speak('press  3 to place order') 
                  
@@ -3543,8 +3345,6 @@ CART'.center(200),'yellow'))
                     #DELETING ITEMS 
                  
                     elif ca==2: 
-                     
-#88 
  
                         o='y' 
                      
@@ -3552,15 +3352,13 @@ CART'.center(200),'yellow'))
                              
                             voice.Speak('enter the code of the item to be deleted') 
                              
-                            print(colored("ENTER THE CODE OF THE ITEM TO BE 
-DELETED",'red')) 
+                            print(colored("ENTER THE CODE OF THE ITEM TO BE DELETED",'red')) 
                          
                             item_code=input( ) 
                              
                             print('\n') 
                          
-                            cart_df=pd.read_sql("select*from customers where p_code='%s' 
-;"%(item_code),connection) 
+                            cart_df=pd.read_sql("select*from customers where p_code='%s' ;"%(item_code),connection) 
                          
                             item_code=cart_df[['p_code']] 
                          
@@ -3576,8 +3374,7 @@ DELETED",'red'))
                              
                             voice.Speak('would you like to delete more items from your cart') 
                              
-                            print(colored("WOULD YOU LIKE TO DELETE MORE ITEMS 
-FROM YOUR CART ? (Y/N) ",'yellow')) 
+                            print(colored("WOULD YOU LIKE TO DELETE MORE ITEMS FROM YOUR CART ? (Y/N) ",'yellow')) 
                          
                             o=input() 
                              
@@ -3590,8 +3387,6 @@ FROM YOUR CART ? (Y/N) ",'yellow'))
                         while fn=='y' or fn=='Y': 
                              
                             #VIEWING THE FINAL CART 
-#89 
- 
                              
                             if ca==3: 
                                  
@@ -3603,15 +3398,13 @@ FROM YOUR CART ? (Y/N) ",'yellow'))
                                  
                                 cart_df=pd.read_sql("select*from customers;",connection) 
                                  
-                                
-print(colored(cart_df.to_string(index=False),'red',attrs=['bold','dark','concealed'])) 
+                                print(colored(cart_df.to_string(index=False),'red',attrs=['bold','dark','concealed'])) 
                                  
                                 print('\n') 
                                  
                                 voice.Speak("would you like to view your bill") 
                                  
-                                print(colored("WOULD YOU LIKE TO VIEW YOUR BILL 
-?",'red')) 
+                                print(colored("WOULD YOU LIKE TO VIEW YOUR BILL ?",'red')) 
                                  
                                 bl=input() 
                                  
@@ -3636,8 +3429,6 @@ print(colored(cart_df.to_string(index=False),'red',attrs=['bold','dark','conceal
                                     print('\n') 
                                      
                                     #DISCOUNTING 
-#90 
- 
                                      
                                     if c=='y' or c== 'Y': 
                                          
@@ -3659,31 +3450,24 @@ print(colored(cart_df.to_string(index=False),'red',attrs=['bold','dark','conceal
                                              
                                             notification.notify(title = 'DREAM MART', 
                                                 message = 'YOU GOT 10% OFF ��', 
-                                                app_icon 
-=r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",  
+                                                app_icon =r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",  
                                                 timeout = 600) 
                                                              
                                             print('\n') 
                                              
-                                            
-print(colored(cart_df.to_string(index=False),'green',attrs=['bold','dark','concealed'])) 
+                                            print(colored(cart_df.to_string(index=False),'green',attrs=['bold','dark','concealed'])) 
                                              
                                             print('\n') 
                                              
                                             voice.Speak('TOTAL AMOUNT TO BE PAID IS') 
                                              
-                                            print(colored("TOTAL AMOUNT TO BE PAID IS : 
-",'red'),amount1) 
+                                            print(colored("TOTAL AMOUNT TO BE PAID IS : ",'red'),amount1) 
                                              
                                             print('\n') 
                                              
-                                            voice.Speak('ARE YOU SURE AND PROCEED YOUR 
-ORDER') 
+                                            voice.Speak('ARE YOU SURE AND PROCEED YOUR ORDER') 
                                              
-                                            print(colored('ARE YOU SURE AND PROCEED YOUR 
-ORDER','yellow')) 
-#91 
- 
+                                            print(colored('ARE YOU SURE AND PROCEED YOUR ORDER','yellow')) 
  
                                             ff=input() 
                                              
@@ -3703,33 +3487,26 @@ ORDER','yellow'))
                                              
                                             notification.notify(title = 'DREAM MART', 
                                                 message = 'YOU GOT 15% OFF ��', 
-                                                app_icon 
-=r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",  
+                                                app_icon =r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",  
                                                 timeout = 600) 
                                                           
                                             print('\n') 
                                              
-                                            
-print(colored(cart_df.to_string(index=False),'green',attrs=['bold','dark','concealed'])) 
+                                            print(colored(cart_df.to_string(index=False),'green',attrs=['bold','dark','concealed'])) 
                                              
                                             print('\n') 
                                              
                                             voice.Speak('TOTAL AMOUNT TO BE PAID IS') 
                                              
-                                            print(colored("TOTAL AMOUNT TO BE PAID IS 
-:",'red'),amount1) 
+                                            print(colored("TOTAL AMOUNT TO BE PAID IS :",'red'),amount1) 
                                              
                                             print('\n') 
                                              
-                                            voice.Speak('ARE YOU SURE AND PROCEED YOUR 
-ORDER') 
+                                            voice.Speak('ARE YOU SURE AND PROCEED YOUR ORDER') 
                                              
-                                            print(colored('ARE YOU SURE AND PROCEED YOUR 
-ORDER','yellow')) 
+                                            print(colored('ARE YOU SURE AND PROCEED YOUR ORDER','yellow')) 
  
                                             ff=input() 
-#92 
- 
                                              
                                             print('\n') 
                                              
@@ -3747,35 +3524,28 @@ ORDER','yellow'))
  
                                             notification.notify(title = 'DREAM MART', 
                                                 message = 'YOU GOT 25% OFF ��', 
-                                                app_icon 
-=r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",  
+                                                app_icon =r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",  
                                                 timeout = 600)                                             
                                              
                                             print('\n') 
                                              
-                                            
-print(colored(cart_df.to_string(index=False),'green',attrs=['bold','dark','concealed'])) 
+                                            print(colored(cart_df.to_string(index=False),'green',attrs=['bold','dark','concealed'])) 
                                              
                                             print('\n') 
                                              
                                             voice.Speak('TOTAL AMOUNT TO BE PAID IS') 
                                              
-                                            print(colored("TOTAL AMOUNT TO BE PAID IS : 
-",'red') , amount1) 
+                                            print(colored("TOTAL AMOUNT TO BE PAID IS : ",'red') , amount1) 
                                              
                                             print('\n') 
                                              
-                                            voice.Speak('ARE YOU SURE AND PROCEED YOUR 
-ORDER') 
+                                            voice.Speak('ARE YOU SURE AND PROCEED YOUR ORDER') 
                                              
-                                            print(colored('ARE YOU SURE AND PROCEED YOUR 
-ORDER','yellow')) 
+                                            print(colored('ARE YOU SURE AND PROCEED YOUR ORDER','yellow')) 
  
                                             ff=input() 
                                              
                                             print('\n') 
-#93 
- 
                                              
                                             if ff != 'y' or ff !='Y': 
                                                  
@@ -3791,8 +3561,7 @@ ORDER','yellow'))
                                              
                                             voice.Speak('WOULD YOU LIKE TO TRY AGAIN') 
                                              
-                                            print(colored("WOULD YOU LIKE TO TRY AGAIN 
-(Y/N) ",'yellow')) 
+                                            print(colored("WOULD YOU LIKE TO TRY AGAIN (Y/N) ",'yellow')) 
                                              
                                             coup=input() 
                                              
@@ -3804,8 +3573,7 @@ ORDER','yellow'))
                                                  
                                             else: 
                                                  
-                                                sc='y' 
-                                                 
+                                                sc='y'                                                  
                                                  
                                 else: 
                                      
@@ -3819,8 +3587,6 @@ ORDER','yellow'))
                                     #GETTING ADDRESS 
                          
                                     voice.Speak('ENTER YOUR DOOR OR FLAT NUMBER') 
-                                     
-#94 
  
                                     print(colored('ENTER YOUR DOOR/FLAT NO.','yellow')) 
                                  
@@ -3828,11 +3594,9 @@ ORDER','yellow'))
                                      
                                     print('\n') 
                                      
-                                    voice.Speak('ENTER YOUR FLAT NAME AND STREET 
-NAME') 
+                                    voice.Speak('ENTER YOUR FLAT NAME AND STREET NAME') 
                                  
-                                    print(colored('ENTER YOUR FLAT NAME & STREET 
-NAME','yellow')) 
+                                    print(colored('ENTER YOUR FLAT NAME & STREET NAME','yellow')) 
                                  
                                     a2=input() 
                                      
@@ -3865,14 +3629,10 @@ NAME','yellow'))
                                     print('PINCODE : ', a4 , '.') 
                                      
                                     print('\n') 
-                                     
-#95 
  
-                                    voice.Speak('DO YOU WANT TO CHANGE YOUR 
-ADDRESS') 
+                                    voice.Speak('DO YOU WANT TO CHANGE YOUR ADDRESS') 
                                  
-                                    print(colored('DO YOU WANT TO CHANGE YOUR 
-ADDRESS','red')) 
+                                    print(colored('DO YOU WANT TO CHANGE YOUR ADDRESS','red')) 
                                  
                                     a5=input() 
                                      
@@ -3888,44 +3648,34 @@ ADDRESS','red'))
                                          
                                  
                                 notification.notify(title = 'DREAM MART', 
-                                                message = 'YOUR ORDER HAS BEEN 
-SUCCESSFULLY PLACED ��', 
-                                                app_icon 
-=r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",  
+                                                message = 'YOUR ORDER HAS BEEN SUCCESSFULLY PLACED ��', 
+                                                app_icon =r"C:\Users\Junaidh\Downloads\Dream_icon.svg (2).ico",  
                                                 timeout = 600) 
                                  
-                                voice.Speak('YOUR ORDER HAS BEEN SUCCESSFULLY 
-PLACED') 
+                                voice.Speak('YOUR ORDER HAS BEEN SUCCESSFULLY PLACED') 
                                  
-                                print(colored('YOUR ORDER HAS BEEN SUCCESSFULLY 
-PLACED ','red')) 
+                                print(colored('YOUR ORDER HAS BEEN SUCCESSFULLY PLACED ','red')) 
                                  
                                 print('\n') 
                                                  
                                 voice.Speak('THANK YOU FOR PLACING YOUR ORDER')     
                              
-                                print(colored('THANK YOU FOR PLACING YOUR 
-ORDER','red')) 
+                                print(colored('THANK YOU FOR PLACING YOUR ORDER','red')) 
                                  
                                 print('\n') 
                      
                                 sql=("delete from customers ;") 
                      
                                 cursor.execute(sql) 
-#96 
- 
                      
                                 connection.commit() 
                          
-                                voice.Speak('WE WILL DELIVER YOUR ORDER 
-INSTANTLY') 
+                                voice.Speak('WE WILL DELIVER YOUR ORDER INSTANTLY') 
                      
-                                print(colored('WE WILL DELIVER YOUR ORDER 
-INSTANTLY','red')) 
+                                print(colored('WE WILL DELIVER YOUR ORDER INSTANTLY','red')) 
                          
                                 print('\n') 
-                             
-                             
+                                                         
                                 #RATING 
                                  
                                 voice.Speak('DROP YOUR RATING') 
@@ -3936,8 +3686,7 @@ INSTANTLY','red'))
                              
                                 voice.Speak('HOW MUCH STAR WOULD YOU GIVE us') 
                              
-                                print(colored('HOW MUCH STAR WOULD YOU GIVE 
-US','yellow')) 
+                                print(colored('HOW MUCH STAR WOULD YOU GIVE US','yellow')) 
                      
                                 star=int(input()) 
                          
@@ -3958,15 +3707,12 @@ US','yellow'))
                                             sys.stdout.write("\r" + animation[i % len(animation)]) 
                                         
                                             sys.stdout.flush() 
-#97 
- 
                  
                                         sys.stdout.write('\r⭐����             ')    
              
                                         print('\n') 
                          
-                                        display(Image(r'C:\Users\Junaidh\Desktop\Ip 
-project\1.jpg',width="200", height="200")) 
+                                        display(Image(r'C:\Users\Junaidh\Desktop\Ip project\1.jpg',width="200", height="200")) 
                              
                                         print('\n') 
                                  
@@ -3994,8 +3740,7 @@ project\1.jpg',width="200", height="200"))
                                  
                                         print('\n') 
                          
-                                        display(Image(r'C:\Users\Junaidh\Desktop\Ip 
-project\2.png',width="200", height="200")) 
+                                        display(Image(r'C:\Users\Junaidh\Desktop\Ip project\2.png',width="200", height="200")) 
                              
                                         print('\n') 
                                  
@@ -4004,15 +3749,12 @@ project\2.png',width="200", height="200"))
                                         print(colored('THANK YOU FOR YOUR RATING','cyan')) 
                                      
                                         print('\n') 
-#98 
- 
                                          
                                         st='n' 
                          
                                     elif star==3: 
                                  
-                                        animation = ['����� ',"⭐���� ","⭐⭐��� 
-","⭐⭐⭐�� "] 
+                                        animation = ['����� ',"⭐���� ","⭐⭐��� ","⭐⭐⭐�� "] 
                                                       
                                         for i in range(len(animation)): 
      
@@ -4026,8 +3768,7 @@ project\2.png',width="200", height="200"))
    
                                         print('\n') 
                          
-                                        display(Image(r'C:\Users\Junaidh\Desktop\Ip 
-project\3.png',width="200", height="200")) 
+                                        display(Image(r'C:\Users\Junaidh\Desktop\Ip project\3.png',width="200", height="200")) 
                              
                                         print('\n') 
                                  
@@ -4041,16 +3782,13 @@ project\3.png',width="200", height="200"))
                          
                                     elif star==4: 
                                  
-                                        animation = ['�����  ',"⭐����  ","⭐⭐���  
-","⭐⭐⭐��   ","⭐⭐⭐⭐�  "] 
+                                        animation = ['�����  ',"⭐����  ","⭐⭐���  ","⭐⭐⭐��   ","⭐⭐⭐⭐�  "] 
                                                       
                                         for i in range(len(animation)): 
      
                                             time.sleep(1) 
      
                                             sys.stdout.write("\r" + animation[i % len(animation)]) 
-                                        
-#99 
  
                                             sys.stdout.flush() 
  
@@ -4058,8 +3796,7 @@ project\3.png',width="200", height="200"))
      
                                         print('\n') 
                          
-                                        display(Image(r'C:\Users\Junaidh\Desktop\Ip 
-project\4.jpg',width="200", height="200")) 
+                                        display(Image(r'C:\Users\Junaidh\Desktop\Ip project\4.jpg',width="200", height="200")) 
                              
                                         print('\n') 
                                  
@@ -4073,8 +3810,7 @@ project\4.jpg',width="200", height="200"))
                          
                                     elif star==5: 
                                  
-                                        animation = ['����� ',"⭐���� ","⭐⭐��� 
-","⭐⭐⭐�� ","⭐⭐⭐⭐� " 
+                                        animation = ['����� ',"⭐���� ","⭐⭐��� ","⭐⭐⭐�� ","⭐⭐⭐⭐� " 
                                                      ,"⭐⭐⭐⭐⭐ "] 
                                                       
                                         for i in range(len(animation)): 
@@ -4089,14 +3825,11 @@ project\4.jpg',width="200", height="200"))
  
                                         print('\n') 
                          
-                                        display(Image(r'C:\Users\Junaidh\Desktop\Ip 
-project\5.jpg',width="200", height="200")) 
+                                        display(Image(r'C:\Users\Junaidh\Desktop\Ip project\5.jpg',width="200", height="200")) 
                              
                                         print('\n') 
                                  
                                         voice.Speak('THANK YOU FOR YOUR RATING') 
-                                 
-#100 
  
                                         print(colored('THANK YOU FOR YOUR RATING','cyan')) 
                                      
@@ -4131,18 +3864,13 @@ project\5.jpg',width="200", height="200"))
                          
                                 print('\n') 
                              
-                                voice.Speak('DO YOU WANT TO CHECK THE STATUS OF 
-YOUR PRODUCT') 
+                                voice.Speak('DO YOU WANT TO CHECK THE STATUS OF YOUR PRODUCT') 
                          
-                                print(colored('DO YOU WANT TO CHECK THE STATUS OF 
-YOUR PRODUCT (Y/N) ','red')) 
+                                print(colored('DO YOU WANT TO CHECK THE STATUS OF YOUR PRODUCT (Y/N) ','red')) 
                              
                                 qw=input() 
                                  
-                                print('\n') 
-                                 
-                                 
-#101 
+                                print('\n')                                                          
  
                                 #DELIVERY DETAILS 
                                  
@@ -4154,16 +3882,13 @@ YOUR PRODUCT (Y/N) ','red'))
                                      
                                     voice.Speak("YOUR ORDER WILL BE DELIVERED BY ") 
                                      
-                                    print(colored("YOUR ORDER WILL BE DELIVERED BY 
-",'red'),dt1) 
+                                    print(colored("YOUR ORDER WILL BE DELIVERED BY ",'red'),dt1) 
                                      
                                     print('\n') 
                                      
-                                    voice.Speak("FOR ANY QUERIES CONTACT US ON + 9 1 
-9 1 2 3 4 5 6 7 8 0 ") 
+                                    voice.Speak("FOR ANY QUERIES CONTACT US ON + 9 1 9 1 2 3 4 * * * * * ") 
                                      
-                                    print(colored("FOR ANY QUERIES CONTACT US ON +91 
-91234 56780 ",'yellow')) 
+                                    print(colored("FOR ANY QUERIES CONTACT US ON +91 91234 ***** ",'yellow')) 
                                      
                                     print('\n') 
                                      
@@ -4174,31 +3899,25 @@ YOUR PRODUCT (Y/N) ','red'))
                                      
                                 else: 
                                      
-                                    voice.Speak("FOR ANY QUERIES CONTACT US ON + 9 1 
-9 1 2 3 4 5 6 7 8 0 ") 
+                                    voice.Speak("FOR ANY QUERIES CONTACT US ON + 9 1 9 1 2 3 4 * * * * * ") 
                                      
-                                    print(colored("FOR ANY QUERIES CONTACT US ON +91 
-91234 56780 ",'yellow')) 
+                                    print(colored("FOR ANY QUERIES CONTACT US ON +91 91234 ***** ",'yellow')) 
                                      
                                     print('\n')                                     
                                      
                                     fn='n' 
-                                     
-                                     
+                                                                          
             #DISPLAYING ITEMS FOR PURCHASE                                            
                  
             elif shop_choice==2: 
-#102 
- 
-                 
+                  
                 shopping='y' 
                  
                 while shopping=='y' or shopping=='Y': 
                      
                     voice.Speak('press 1 for foodgrains oils and masalas') 
                      
-                    print(colored('1. FOODGRAINS,OILS & 
-MASALAS'.center(200),'yellow')) 
+                    print(colored('1. FOODGRAINS,OILS & MASALAS'.center(200),'yellow')) 
                      
                     voice.Speak('press 2 for fruits and vegetables') 
                      
@@ -4233,8 +3952,6 @@ MASALAS'.center(200),'yellow'))
                     print(colored('9. MOM & BABY'.center(200),'yellow')) 
                      
                     voice.Speak('enter your choice') 
-                     
-#103 
  
                     print('\n') 
                      
@@ -4248,26 +3965,21 @@ MASALAS'.center(200),'yellow'))
                      
                     if sh==1: 
                          
-                        display(Image(r'C:\Users\Junaidh\Desktop\Ip 
-project\food1.png',width="950", height="400")) 
+                        display(Image(r'C:\Users\Junaidh\Desktop\Ip project\food1.png',width="950", height="400")) 
                          
-                        display(Image(r'C:\Users\Junaidh\Desktop\Ip 
-project\food2.png',width="950", height="400")) 
+                        display(Image(r'C:\Users\Junaidh\Desktop\Ip project\food2.png',width="950", height="400")) 
                          
                         print('\n') 
                              
                         pfdf=pd.read_sql('select*from product',connection) 
                          
-                        
-print(colored(pfdf.to_string(index=False).center(160),'green',attrs=['bold','dark','concealed'])) 
+                        print(colored(pfdf.to_string(index=False).center(160),'green',attrs=['bold','dark','concealed'])) 
                          
                         print('\n') 
                          
-                        voice.Speak('DO YOU WANT TO ADD SOMETHING TO YOUR 
-CART ') 
+                        voice.Speak('DO YOU WANT TO ADD SOMETHING TO YOUR CART ') 
                              
-                        print(colored('DO YOU WANT TO ADD SOMETHING TO YOUR 
-CART ','red')) 
+                        print(colored('DO YOU WANT TO ADD SOMETHING TO YOUR CART ','red')) 
                              
                         shop1=input() 
                          
@@ -4280,9 +3992,7 @@ CART ','red'))
                             cart1='y' 
                                  
                             while cart1=='y' or cart1=='Y': 
-#104 
- 
-                                 
+                                  
                                 voice.Speak('enter the product code') 
                                      
                                 print(colored("ENTER THE PRODUCT CODE",'yellow')) 
@@ -4299,8 +4009,7 @@ CART ','red'))
                                  
                                 print('\n') 
                                      
-                                pf_df=pd.read_sql("select*from product where pf_code='%s' 
-;"%(pf),connection) 
+                                pf_df=pd.read_sql("select*from product where pf_code='%s' ;"%(pf),connection) 
              
                                 pf_code=pf_df[['pf_code']]  
                                      
@@ -4325,15 +4034,13 @@ CART ','red'))
                                 for i,row in pf_code.iterrows(): 
                                          
                                     for i,row in pf_name.iterrows(): 
-                                             
-#105 
  
                                         for i,row in pf_price.iterrows(): 
                                                  
                                             for i,row in pf_total.iterrows(): 
                                                      
-                                                sql2="INSERT INTO `customers` 
-(`p_code`,`p_name`,`price`,`quantity`,`total_price`)  VALUES (%s, %s, %s, %s, %s)" 
+                                                sql2="INSERT INTO `customers` (`p_code`,`p_name`,`price`,`quantity`,`total_price`)  
+                                                VALUES (%s, %s, %s, %s, %s)" 
                                                      
                                                 cursor.execute(sql2,(col, col1,col2,col3,col4) ) 
                                                      
@@ -4341,11 +4048,9 @@ CART ','red'))
                                                      
                                 connection.commit() 
                                  
-                                voice.Speak("WOULD YOU LIKE TO ADD MORE 
-FOODGRAIN,OIL & MASALA ITEMS TO YOUR CART ") 
+                                voice.Speak("WOULD YOU LIKE TO ADD MORE FOODGRAIN,OIL & MASALA ITEMS TO YOUR CART ") 
                                      
-                                print(colored("WOULD YOU LIKE TO ADD MORE 
-FOODGRAIN,OIL & MASALA ITEMS TO YOUR CART ?? (Y/N) ",'yellow')) 
+                                print(colored("WOULD YOU LIKE TO ADD MORE FOODGRAIN,OIL & MASALA ITEMS TO YOUR CART ?? (Y/N) ",'yellow')) 
                                      
                                 cart1=input() 
                                  
@@ -4359,25 +4064,19 @@ FOODGRAIN,OIL & MASALA ITEMS TO YOUR CART ?? (Y/N) ",'yellow'))
                                      
                     elif sh==2: 
                          
-                        display(Image(r'C:\Users\Junaidh\Desktop\Ip 
-project\vegge.png',width="950", height="400")) 
+                        display(Image(r'C:\Users\Junaidh\Desktop\Ip project\vegge.png',width="950", height="400")) 
                          
                         print('\n') 
                              
                         pvdf=pd.read_sql('select*from product2',connection) 
                          
-                        
-print(colored(pvdf.to_string(index=False).center(160),'green',attrs=['bold','dark','concealed'])) 
+                        print(colored(pvdf.to_string(index=False).center(160),'green',attrs=['bold','dark','concealed'])) 
                          
                         print('\n') 
-                         
-#106 
  
-                        voice.Speak('DO YOU WANT TO ADD SOMETHING TO YOUR 
-CART ') 
+                        voice.Speak('DO YOU WANT TO ADD SOMETHING TO YOUR CART ') 
                              
-                        print(colored('DO YOU WANT TO ADD SOMETHING TO YOUR 
-CART ','red')) 
+                        print(colored('DO YOU WANT TO ADD SOMETHING TO YOUR CART ','red')) 
                              
                         shop1=input() 
                          
@@ -4407,8 +4106,7 @@ CART ','red'))
                                  
                                 print('\n') 
                                      
-                                pv_df=pd.read_sql("select*from product2 where pv_code='%s' 
-;"%(pv),connection) 
+                                pv_df=pd.read_sql("select*from product2 where pv_code='%s' ;"%(pv),connection) 
              
                                 pv_code=pv_df[['pv_code']]  
                                      
@@ -4417,8 +4115,6 @@ CART ','red'))
                                 pvq_series=pd.Series([pvq]) 
                                  
                                 pv_price=pv_df[['price']] 
-#107 
- 
                                      
                                 pv_total=pv_price.mul(pvq) 
                                      
@@ -4440,8 +4136,8 @@ CART ','red'))
                                                  
                                             for i,row in pv_total.iterrows(): 
                                                      
-                                                sql2="INSERT INTO `customers` 
-(`p_code`,`p_name`,`price`,`quantity`,`total_price`)  VALUES (%s, %s, %s, %s, %s)" 
+                                                sql2="INSERT INTO `customers` (`p_code`,`p_name`,`price`,`quantity`,`total_price`)  
+                                                VALUES (%s, %s, %s, %s, %s)" 
                                                      
                                                 cursor.execute(sql2,(col, col1,col2,col3,col4) ) 
                                                      
@@ -4449,11 +4145,9 @@ CART ','red'))
                                                      
                                 connection.commit() 
                                  
-                                voice.Speak("WOULD YOU LIKE TO ADD MORE FRUITS & 
-VEGETABLES TO YOUR CART ") 
+                                voice.Speak("WOULD YOU LIKE TO ADD MORE FRUITS & VEGETABLES TO YOUR CART ") 
                                      
-                                print(colored("WOULD YOU LIKE TO ADD MORE FRUITS & 
-VEGETABLES TO YOUR CART ?? (Y/N) ",'yellow')) 
+                                print(colored("WOULD YOU LIKE TO ADD MORE FRUITS & VEGETABLES TO YOUR CART ?? (Y/N) ",'yellow')) 
                                      
                                 cart1=input() 
                                  
@@ -4462,30 +4156,24 @@ VEGETABLES TO YOUR CART ?? (Y/N) ",'yellow'))
                         else: 
                              
                             break 
-                             
-#108 
  
                     #DISPLAYING SNACKS ITEMS 
                                  
                     elif sh==3: 
                          
-                        display(Image(r'C:\Users\Junaidh\Desktop\Ip 
-project\snacks.png',width="950", height="400")) 
+                        display(Image(r'C:\Users\Junaidh\Desktop\Ip project\snacks.png',width="950", height="400")) 
                          
                         print('\n') 
                              
                         psdf=pd.read_sql('select*from product3',connection) 
                          
-                        
-print(colored(psdf.to_string(index=False).center(160),'green',attrs=['bold','dark','concealed'])) 
+                        print(colored(psdf.to_string(index=False).center(160),'green',attrs=['bold','dark','concealed'])) 
                          
                         print('\n') 
                          
-                        voice.Speak('DO YOU WANT TO ADD SOMETHING TO YOUR 
-CART ') 
+                        voice.Speak('DO YOU WANT TO ADD SOMETHING TO YOUR CART ') 
                              
-                        print(colored('DO YOU WANT TO ADD SOMETHING TO YOUR 
-CART ','red')) 
+                        print(colored('DO YOU WANT TO ADD SOMETHING TO YOUR CART ','red')) 
                              
                         shop1=input() 
                          
@@ -4508,8 +4196,6 @@ CART ','red'))
                                 print('\n') 
                                  
                                 voice.Speak('enter the quantity') 
-                                 
-#109 
  
                                 print(colored("ENTER THE QUANTITY",'yellow')) 
                                      
@@ -4517,8 +4203,7 @@ CART ','red'))
                                  
                                 print('\n') 
                                      
-                                ps_df=pd.read_sql("select*from product3 where ps_code='%s' 
-;"%(ps),connection) 
+                                ps_df=pd.read_sql("select*from product3 where ps_code='%s' ;"%(ps),connection) 
              
                                 ps_code=ps_df[['ps_code']]  
                                      
@@ -4548,22 +4233,18 @@ CART ','red'))
                                                  
                                             for i,row in ps_total.iterrows(): 
                                                      
-                                                sql2="INSERT INTO `customers` 
-(`p_code`,`p_name`,`price`,`quantity`,`total_price`)  VALUES (%s, %s, %s, %s, %s)" 
+                                                sql2="INSERT INTO `customers` (`p_code`,`p_name`,`price`,`quantity`,`total_price`) 
+                                                VALUES (%s, %s, %s, %s, %s)" 
                                                      
                                                 cursor.execute(sql2,(col, col1,col2,col3,col4) ) 
                                                      
                                                 connection.commit() 
-                                                     
-#110 
  
                                 connection.commit() 
                                  
-                                voice.Speak('WOULD YOU LIKE TO ADD MORE SNACKS 
-ITEMS TO YOUR CART') 
+                                voice.Speak('WOULD YOU LIKE TO ADD MORE SNACKS ITEMS TO YOUR CART') 
                                      
-                                print(colored("WOULD YOU LIKE TO ADD MORE SNACKS 
-ITEMS TO YOUR CART ?? (Y/N) ",'yellow')) 
+                                print(colored("WOULD YOU LIKE TO ADD MORE SNACKS ITEMS TO YOUR CART ?? (Y/N) ",'yellow')) 
                                      
                                 cart1=input() 
                                  
@@ -4577,32 +4258,25 @@ ITEMS TO YOUR CART ?? (Y/N) ",'yellow'))
                                  
                     elif sh==4: 
  
-                        display(Image(r'C:\Users\Junaidh\Desktop\Ip 
-project\dairy.png',width="950", height="400")) 
+                        display(Image(r'C:\Users\Junaidh\Desktop\Ip project\dairy.png',width="950", height="400")) 
                          
                         print('\n') 
                              
                         pdadf=pd.read_sql('select*from product4',connection) 
                          
-                        
-print(colored(pdadf.to_string(index=False).center(160),'green',attrs=['bold','dark','concealed'])
- ) 
+                        print(colored(pdadf.to_string(index=False).center(160),'green',attrs=['bold','dark','concealed'])) 
                          
                         print('\n') 
                          
-                        voice.Speak('DO YOU WANT TO ADD SOMETHING TO YOUR 
-CART ') 
+                        voice.Speak('DO YOU WANT TO ADD SOMETHING TO YOUR CART ') 
                              
-                        print(colored('DO YOU WANT TO ADD SOMETHING TO YOUR 
-CART ','red')) 
+                        print(colored('DO YOU WANT TO ADD SOMETHING TO YOUR CART ','red')) 
                              
                         shop1=input() 
                          
                         print('\n') 
                              
                         if shop1=='y' or shop1=='Y' : 
-#111 
- 
                                  
                             total=pd.DataFrame=({'price':0}) 
                                  
@@ -4626,8 +4300,7 @@ CART ','red'))
                                  
                                 print('\n') 
                                      
-                                pda_df=pd.read_sql("select*from product4 where pda_code='%s' 
-;"%(pda),connection) 
+                                pda_df=pd.read_sql("select*from product4 where pda_code='%s' ;"%(pda),connection) 
              
                                 pda_code=pda_df[['pda_code']] 
                                      
@@ -4646,8 +4319,6 @@ CART ','red'))
                                 col2="`,`".join([str(i) for i in pdaq_series.tolist()]) 
                                      
                                 col3="`,`".join([str(i) for i in pda_price.price.tolist()]) 
-                                     
-#112 
  
                                 col4="`,`".join([str(i) for i in pda_total.price.tolist()]) 
                                      
@@ -4659,8 +4330,8 @@ CART ','red'))
                                                  
                                             for i,row in pda_total.iterrows(): 
                                                      
-                                                sql2="INSERT INTO `customers` 
-(`p_code`,`p_name`,`price`,`quantity`,`total_price`)  VALUES (%s, %s, %s, %s, %s)" 
+                                                sql2="INSERT INTO `customers` (`p_code`,`p_name`,`price`,`quantity`,`total_price`)  
+                                                VALUES (%s, %s, %s, %s, %s)" 
                                                      
                                                 cursor.execute(sql2,(col, col1,col2,col3,col4) ) 
                                                      
@@ -4668,11 +4339,9 @@ CART ','red'))
                                                      
                                 connection.commit() 
                                  
-                                voice.Speak('WOULD YOU LIKE TO ADD MORE DIARY & 
-BAKERY ITEMS TO YOUR CART') 
+                                voice.Speak('WOULD YOU LIKE TO ADD MORE DIARY & BAKERY ITEMS TO YOUR CART') 
                                      
-                                print(colored("WOULD YOU LIKE TO ADD MORE DIARY & 
-BAKERY ITEMS TO YOUR CART ?? (Y/N) ",'yellow')) 
+                                print(colored("WOULD YOU LIKE TO ADD MORE DIARY & BAKERY ITEMS TO YOUR CART ?? (Y/N) ",'yellow')) 
                                      
                                 cart1=input() 
                                  
@@ -4682,25 +4351,19 @@ BAKERY ITEMS TO YOUR CART ?? (Y/N) ",'yellow'))
                      
                     elif sh==5: 
                          
-                        display(Image(r'C:\Users\Junaidh\Desktop\Ip 
-project\beverage.png',width="950", height="400")) 
+                        display(Image(r'C:\Users\Junaidh\Desktop\Ip project\beverage.png',width="950", height="400")) 
                          
                         print('\n') 
                              
                         pbdf=pd.read_sql('select*from product5',connection) 
                          
-                        
-print(colored(pbdf.to_string(index=False).center(160),'green',attrs=['bold','dark','concealed'])) 
+                        print(colored(pbdf.to_string(index=False).center(160),'green',attrs=['bold','dark','concealed'])) 
                          
-                        print('\n') 
-#113 
- 
+                        print('\n')  
                          
-                        voice.Speak('DO YOU WANT TO ADD SOMETHING TO YOUR 
-CART ') 
+                        voice.Speak('DO YOU WANT TO ADD SOMETHING TO YOUR CART ') 
                              
-                        print(colored('DO YOU WANT TO ADD SOMETHING TO YOUR 
-CART ','red')) 
+                        print(colored('DO YOU WANT TO ADD SOMETHING TO YOUR CART ','red')) 
                              
                         shop1=input() 
                          
@@ -4730,16 +4393,13 @@ CART ','red'))
                                  
                                 print('\n') 
                                      
-                                pb_df=pd.read_sql("select*from product5 where pb_code='%s' 
-;"%(pb),connection) 
+                                pb_df=pd.read_sql("select*from product5 where pb_code='%s' ;"%(pb),connection) 
              
                                 pb_code=pb_df[['pb_code']]  
                                      
                                 pb_name=pb_df[['pb_name']] 
                                      
                                 pbq_series=pd.Series([pbq]) 
-                                     
-#114 
  
                                 pb_price=pb_df[['price']] 
                                      
@@ -4763,8 +4423,8 @@ CART ','red'))
                                                  
                                             for i,row in pb_total.iterrows(): 
                                                      
-                                                sql2="INSERT INTO `customers` 
-(`p_code`,`p_name`,`price`,`quantity`,`total_price`)  VALUES (%s, %s, %s, %s, %s)" 
+                                                sql2="INSERT INTO `customers` (`p_code`,`p_name`,`price`,`quantity`,`total_price`) 
+                                                VALUES (%s, %s, %s, %s, %s)" 
                                                      
                                                 cursor.execute(sql2,(col, col1,col2,col3,col4) ) 
                                                      
@@ -4772,11 +4432,9 @@ CART ','red'))
                                                      
                                 connection.commit() 
                                  
-                                voice.Speak('WOULD YOU LIKE TO ADD MORE 
-BEVERAGE ITEMS TO YOUR CART') 
+                                voice.Speak('WOULD YOU LIKE TO ADD MORE BEVERAGE ITEMS TO YOUR CART') 
                                      
-                                print(colored("WOULD YOU LIKE TO ADD MORE 
-BEVERAGE ITEMS TO YOUR CART ?? (Y/N) ",'yellow')) 
+                                print(colored("WOULD YOU LIKE TO ADD MORE BEVERAGE ITEMS TO YOUR CART ?? (Y/N) ",'yellow')) 
                                      
                                 cart1=input() 
                                  
@@ -4785,26 +4443,20 @@ BEVERAGE ITEMS TO YOUR CART ?? (Y/N) ",'yellow'))
                     #DISPLAYING INSTANT FOOD ITEMS 
                      
                     elif sh==6: 
-#115 
- 
                              
-                        display(Image(r'C:\Users\Junaidh\Desktop\Ip 
-project\instant.png',width="950", height="400")) 
+                        display(Image(r'C:\Users\Junaidh\Desktop\Ip project\instant.png',width="950", height="400")) 
                          
                         print('\n') 
                              
                         pidf=pd.read_sql('select*from product6',connection) 
                          
-                        
-print(colored(pidf.to_string(index=False).center(160),'green',attrs=['bold','dark','concealed'])) 
+                        print(colored(pidf.to_string(index=False).center(160),'green',attrs=['bold','dark','concealed'])) 
                          
                         print('\n') 
                          
-                        voice.Speak('DO YOU WANT TO ADD SOMETHING TO YOUR 
-CART') 
+                        voice.Speak('DO YOU WANT TO ADD SOMETHING TO YOUR CART') 
                              
-                        print(colored('DO YOU WANT TO ADD SOMETHING TO YOUR 
-CART ','red')) 
+                        print(colored('DO YOU WANT TO ADD SOMETHING TO YOUR CART ','red')) 
                              
                         shop1=input() 
                          
@@ -4831,13 +4483,10 @@ CART ','red'))
                                 print(colored("ENTER THE QUANTITY",'yellow')) 
                                      
                                 piq=int(input( )) 
-#116 
- 
-                                 
+                        
                                 print('\n') 
                                      
-                                pi_df=pd.read_sql("select*from product6 where pi_code='%s' 
-;"%(pi),connection) 
+                                pi_df=pd.read_sql("select*from product6 where pi_code='%s' ;"%(pi),connection) 
              
                                 pi_code=pi_df[['pi_code']] 
                                      
@@ -4867,22 +4516,18 @@ CART ','red'))
                                                  
                                             for i,row in pi_total.iterrows(): 
                                                      
-                                                sql2="INSERT INTO `customers` 
-(`p_code`,`p_name`,`price`,`quantity`,`total_price`)  VALUES (%s, %s, %s, %s, %s)" 
+                                                sql2="INSERT INTO `customers` (`p_code`,`p_name`,`price`,`quantity`,`total_price`) 
+                                                VALUES (%s, %s, %s, %s, %s)" 
                                                      
                                                 cursor.execute(sql2,(col, col1,col2,col3,col4) ) 
                                                      
                                                 connection.commit() 
                                                      
                                 connection.commit() 
-                                 
-#117 
  
-                                voice.Speak('WOULD YOU LIKE TO ADD MORE INSTANT 
-FOOD ITEMS TO YOUR CART') 
+                                voice.Speak('WOULD YOU LIKE TO ADD MORE INSTANT FOOD ITEMS TO YOUR CART') 
                                      
-                                print(colored("WOULD YOU LIKE TO ADD MORE INSTANT 
-FOOD ITEMS TO YOUR CART ?? (Y/N) ",'yellow')) 
+                                print(colored("WOULD YOU LIKE TO ADD MORE INSTANT FOOD ITEMS TO YOUR CART ?? (Y/N) ",'yellow')) 
                                      
                                 cart1=input() 
                                  
@@ -4892,23 +4537,19 @@ FOOD ITEMS TO YOUR CART ?? (Y/N) ",'yellow'))
                              
                     elif sh==7: 
                          
-                        display(Image(r'C:\Users\Junaidh\Desktop\Ip 
-project\cosmatic.png',width="950", height="400")) 
+                        display(Image(r'C:\Users\Junaidh\Desktop\Ip project\cosmatic.png',width="950", height="400")) 
                          
                         print('\n') 
                              
                         pedf=pd.read_sql('select*from product7',connection) 
                          
-                        
-print(colored(pedf.to_string(index=False).center(160),'green',attrs=['bold','dark','concealed'])) 
+                        print(colored(pedf.to_string(index=False).center(160),'green',attrs=['bold','dark','concealed'])) 
                          
                         print('\n') 
                          
-                        voice.Speak('DO YOU WANT TO ADD SOMETHING TO YOUR 
-CART ') 
+                        voice.Speak('DO YOU WANT TO ADD SOMETHING TO YOUR CART ') 
                              
-                        print(colored('DO YOU WANT TO ADD SOMETHING TO YOUR 
-CART ','red')) 
+                        print(colored('DO YOU WANT TO ADD SOMETHING TO YOUR CART ','red')) 
                              
                         shop1=input() 
                          
@@ -4921,9 +4562,7 @@ CART ','red'))
                             cart1='y' 
                                  
                             while cart1=='y' or cart1=='Y': 
-                                 
-#118 
- 
+
                                 voice.Speak('enter the product code') 
                                      
                                 print(colored("ENTER THE PRODUCT CODE",'yellow')) 
@@ -4940,8 +4579,7 @@ CART ','red'))
                                  
                                 print('\n') 
                                      
-                                pe_df=pd.read_sql("select*from product7 where pe_code='%s' 
-;"%(pe),connection) 
+                                pe_df=pd.read_sql("select*from product7 where pe_code='%s' ;"%(pe),connection) 
              
                                 pe_code=pe_df[['pe_code']]  
                                      
@@ -4968,13 +4606,11 @@ CART ','red'))
                                     for i,row in pe_name.iterrows(): 
                                              
                                         for i,row in pe_price.iterrows(): 
-#119 
- 
-                                                 
+                                            
                                             for i,row in pe_total.iterrows(): 
                                                      
-                                                sql2="INSERT INTO `customers` 
-(`p_code`,`p_name`,`price`,`quantity`,`total_price`)  VALUES (%s, %s, %s, %s, %s)" 
+                                                sql2="INSERT INTO `customers` (`p_code`,`p_name`,`price`,`quantity`,`total_price`)  
+                                                VALUES (%s, %s, %s, %s, %s)" 
                                                      
                                                 cursor.execute(sql2,(col, col1,col2,col3,col4) ) 
                                                      
@@ -4982,11 +4618,9 @@ CART ','red'))
                                                      
                                 connection.commit() 
                                  
-                                voice.Speak('WOULD YOU LIKE TO ADD MORE  BEAUTY 
-& PERSONAL CARE ITEMS TO YOUR CART ') 
+                                voice.Speak('WOULD YOU LIKE TO ADD MORE  BEAUTY & PERSONAL CARE ITEMS TO YOUR CART ') 
                                      
-                                print(colored("WOULD YOU LIKE TO ADD MORE  BEAUTY 
-& PERSONAL CARE ITEMS TO YOUR CART ?? (Y/N) ",'yellow')) 
+                                print(colored("WOULD YOU LIKE TO ADD MORE  BEAUTY & PERSONAL CARE ITEMS TO YOUR CART ?? (Y/N) ",'yellow')) 
                                      
                                 cart1=input() 
                                  
@@ -4996,26 +4630,20 @@ CART ','red'))
                                      
                     elif sh==8: 
                          
-                        display(Image(r'C:\Users\Junaidh\Desktop\Ip 
-project\home.png',width="950", height="400")) 
+                        display(Image(r'C:\Users\Junaidh\Desktop\Ip project\home.png',width="950", height="400")) 
                          
                         print('\n') 
                              
                         phdf=pd.read_sql('select*from product8',connection) 
                          
-                        
-print(colored(phdf.to_string(index=False).center(160),'green',attrs=['bold','dark','concealed'])) 
+                        print(colored(phdf.to_string(index=False).center(160),'green',attrs=['bold','dark','concealed'])) 
                          
                         print('\n') 
                          
-                        voice.Speak('DO YOU WANT TO ADD SOMETHING TO YOUR 
-CART ') 
+                        voice.Speak('DO YOU WANT TO ADD SOMETHING TO YOUR CART ') 
                              
-                        print(colored('DO YOU WANT TO ADD SOMETHING TO YOUR 
-CART ','red')) 
-                             
-#120 
- 
+                        print(colored('DO YOU WANT TO ADD SOMETHING TO YOUR CART ','red')) 
+
                         shop1=input() 
                          
                         print('\n') 
@@ -5042,8 +4670,7 @@ CART ','red'))
                                  
                                 print('\n') 
                                      
-                                ph_df=pd.read_sql("select*from product8 where ph_code='%s' 
-;"%(ph),connection) 
+                                ph_df=pd.read_sql("select*from product8 where ph_code='%s' ;"%(ph),connection) 
              
                                 ph_code=ph_df[['ph_code']]  
                                      
@@ -5060,9 +4687,7 @@ CART ','red'))
                                 col1="`,`".join([str(i) for i in ph_name.ph_name.tolist()]) 
                                      
                                 col2="`,`".join([str(i) for i in phq_series.tolist()]) 
-#121 
- 
-                                     
+                              
                                 col3="`,`".join([str(i) for i in ph_price.price.tolist()]) 
                                      
                                 col4="`,`".join([str(i) for i in ph_total.price.tolist()]) 
@@ -5075,8 +4700,8 @@ CART ','red'))
                                                  
                                             for i,row in ph_total.iterrows(): 
                                                      
-                                                sql2="INSERT INTO `customers` 
-(`p_code`,`p_name`,`price`,`quantity`,`total_price`)  VALUES (%s, %s, %s, %s, %s)" 
+                                                sql2="INSERT INTO `customers` (`p_code`,`p_name`,`price`,`quantity`,`total_price`)  
+                                                VALUES (%s, %s, %s, %s, %s)" 
                                                      
                                                 cursor.execute(sql2,(col, col1,col2,col3,col4) ) 
                                                      
@@ -5084,11 +4709,9 @@ CART ','red'))
                                                      
                                 connection.commit() 
                                  
-                                voice.Speak('WOULD YOU LIKE TO ADD MORE HOME 
-HYGIENE & CARE ITEMS TO YOUR CART') 
+                                voice.Speak('WOULD YOU LIKE TO ADD MORE HOME HYGIENE & CARE ITEMS TO YOUR CART') 
                                      
-                                print(colored("WOULD YOU LIKE TO ADD MORE HOME 
-HYGIENE & CARE ITEMS TO YOUR CART ?? (Y/N) ",'yellow')) 
+                                print(colored("WOULD YOU LIKE TO ADD MORE HOME HYGIENE & CARE ITEMS TO YOUR CART ?? (Y/N) ",'yellow')) 
                                      
                                 cart1=input() 
                                  
@@ -5098,26 +4721,19 @@ HYGIENE & CARE ITEMS TO YOUR CART ?? (Y/N) ",'yellow'))
                      
                     elif sh==9: 
                          
-                        display(Image(r'C:\Users\Junaidh\Desktop\Ip 
-project\baby.png',width="950", height="400")) 
+                        display(Image(r'C:\Users\Junaidh\Desktop\Ip project\baby.png',width="950", height="400")) 
                          
                         print('\n') 
                              
                         pmdf=pd.read_sql('select*from product9',connection) 
-                         
-#122 
- 
-                        
-print(colored(pmdf.to_string(index=False).center(160),'green',attrs=['bold','dark','concealed'])
- ) 
+                     
+                        print(colored(pmdf.to_string(index=False).center(160),'green',attrs=['bold','dark','concealed']) ) 
                          
                         print('\n') 
                          
-                        voice.Speak('DO YOU WANT TO ADD SOMETHING TO YOUR 
-CART ') 
+                        voice.Speak('DO YOU WANT TO ADD SOMETHING TO YOUR CART ') 
                              
-                        print(colored('DO YOU WANT TO ADD SOMETHING TO YOUR 
-CART ','yellow')) 
+                        print(colored('DO YOU WANT TO ADD SOMETHING TO YOUR CART ','yellow')) 
                              
                         shop1=input() 
                          
@@ -5147,13 +4763,10 @@ CART ','yellow'))
                                  
                                 print('\n') 
                                      
-                                pm_df=pd.read_sql("select*from product9 where pm_code='%s' 
-;"%(pm),connection) 
+                                pm_df=pd.read_sql("select*from product9 where pm_code='%s' ;"%(pm),connection) 
              
                                 pm_code=pm_df[['pm_code']]  
-#123 
- 
-                                     
+                                      
                                 pm_name=pm_df[['pm_name']] 
                                      
                                 pmq_series=pd.Series([pmq]) 
@@ -5180,8 +4793,8 @@ CART ','yellow'))
                                                  
                                             for i,row in pm_total.iterrows(): 
                                                      
-                                                sql2="INSERT INTO `customers` 
-(`p_code`,`p_name`,`price`,`quantity`,`total_price`)  VALUES (%s, %s, %s, %s, %s)" 
+                                                sql2="INSERT INTO `customers` (`p_code`,`p_name`,`price`,`quantity`,`total_price`) 
+                                                VALUES (%s, %s, %s, %s, %s)" 
                                                      
                                                 cursor.execute(sql2,(col, col1,col2,col3,col4) ) 
                                                      
@@ -5189,16 +4802,12 @@ CART ','yellow'))
                                                      
                                 connection.commit() 
                                  
-                                voice.Speak('WOULD YOU LIKE TO ADD MORE BABY 
-ITEMS TO YOUR CART') 
+                                voice.Speak('WOULD YOU LIKE TO ADD MORE BABY ITEMS TO YOUR CART') 
                                      
-                                print(colored("WOULD YOU LIKE TO ADD MORE BABY 
-ITEMS TO YOUR CART ?? (Y/N) ",'yellow')) 
+                                print(colored("WOULD YOU LIKE TO ADD MORE BABY ITEMS TO YOUR CART ?? (Y/N) ",'yellow')) 
                                      
                                 cart1=input() 
-                                 
-#124 
- 
+
                                 print('\n') 
                    
                             else: 
@@ -5209,8 +4818,7 @@ ITEMS TO YOUR CART ?? (Y/N) ",'yellow'))
                                  
                     voice.Speak('WOULD YOU LIKE TO VISIT OTHER PRODUCTS') 
                                      
-                    print(colored("WOULD YOU LIKE TO VISIT OTHER PRODUCTS  ?? 
-(Y/N) ",'yellow')) 
+                    print(colored("WOULD YOU LIKE TO VISIT OTHER PRODUCTS  ?? (Y/N) ",'yellow')) 
                                      
                     shopping=input()    
                      
@@ -5220,17 +4828,13 @@ ITEMS TO YOUR CART ?? (Y/N) ",'yellow'))
                  
                 shop='n' 
                                      
- 
-#DATA VISUALIZATION 
+ #DATA VISUALIZATION 
                  
     elif menu_choice == 4: 
          
-        animation = ["LOADING [■□□□□□□□□□]","LOADING [■■□□□□□□□□]", 
-"LOADING [■■■□□□□□□□]",  
-             "LOADING [■■■■□□□□□□]", "LOADING [■■■■■□□□□□]", "LOADING 
-[■■■■■■□□□□]", 
-             "LOADING [■■■■■■■□□□]", "LOADING [■■■■■■■■□□]", "LOADING 
-[■■■■■■■■■□]",  
+        animation = ["LOADING [■□□□□□□□□□]","LOADING [■■□□□□□□□□]", "LOADING [■■■□□□□□□□]",  
+             "LOADING [■■■■□□□□□□]", "LOADING [■■■■■□□□□□]", "LOADING [■■■■■■□□□□]", 
+             "LOADING [■■■■■■■□□□]", "LOADING [■■■■■■■■□□]", "LOADING [■■■■■■■■■□]",  
              "LOADING [■■■■■■■■■■]"] 
          
         for i in range(len(animation)): 
@@ -5242,8 +4846,6 @@ ITEMS TO YOUR CART ?? (Y/N) ",'yellow'))
             sys.stdout.flush() 
  
         sys.stdout.write('\rDone!                          ') 
-         
-#125 
  
         print('\n')    
          
@@ -5253,8 +4855,7 @@ ITEMS TO YOUR CART ?? (Y/N) ",'yellow'))
              
             voice.Speak('do you want to see our statistics') 
              
-            print(colored("DO YOU WANT TO SEE OUR STATISTICS (Y/N) 
-",'yellow')) 
+            print(colored("DO YOU WANT TO SEE OUR STATISTICS (Y/N) ",'yellow')) 
              
             gh=input() 
              
@@ -5268,8 +4869,7 @@ ITEMS TO YOUR CART ?? (Y/N) ",'yellow'))
                  
                 voice.Speak('press 2 to know data about shopping center') 
                  
-                print(colored('2. DATA ABOUT SHOPPING 
-CENTER'.center(200),'yellow')) 
+                print(colored('2. DATA ABOUT SHOPPING CENTER'.center(200),'yellow')) 
                  
                 print('\n') 
                  
@@ -5289,11 +4889,8 @@ CENTER'.center(200),'yellow'))
                     #RADAR CHART 
                      
                     voice.Speak('here is the data about game corner') 
-#126 
- 
                      
-                    print(colored("RADAR CHART OF GAME 
-CORNER".center(200),'red')) 
+                    print(colored("RADAR CHART OF GAME CORNER".center(200),'red')) 
                      
                     print('\n') 
                           
@@ -5335,8 +4932,6 @@ CORNER".center(200),'red'))
                     print(colored('DO YOU WANT TO CONTINUE (Y/N) :','yellow')) 
                              
                     graph2=input() 
-#127 
- 
                      
                     print('\n') 
                      
@@ -5352,16 +4947,13 @@ CORNER".center(200),'red'))
                      
                         print(colored('1. PIE CHART OF PRODUCTS '.center(200),'yellow')) 
                          
-                        voice.Speak('PRESS 2 TO SEE A LINE CHART about GROWTH OF 
-DREAM MART') 
+                        voice.Speak('PRESS 2 TO SEE A LINE CHART about GROWTH OF DREAM MART') 
                          
-                        print(colored('2. LINE CHART (GROWTH OF DREAM 
-MART)'.center(200),'yellow' )) 
+                        print(colored('2. LINE CHART (GROWTH OF DREAM MART)'.center(200),'yellow' )) 
                          
                         voice.Speak('press 3 to see bar graph about products sold') 
                          
-                        print(colored('3. BAR GRAPH ABOUT PRODUCTS 
-SOLD'.center(200),'yellow')) 
+                        print(colored('3. BAR GRAPH ABOUT PRODUCTS SOLD'.center(200),'yellow')) 
                          
                         print('\n') 
                          
@@ -5381,16 +4973,13 @@ SOLD'.center(200),'yellow'))
                              
                             products = ['FOODGRAINS,OILS & MASALAS',  
                                         'FRUITS & VEGETABLES', 'DAIRY & BAKERY', 
-#128 
- 
                                         'SNACKS STATION','BEVARAGES CORNER', 
                                         'INSTANT FOODS','BEAUTY & PERSONAL CARE', 
                                         'HOME HYGIENE & CARE','MOM & BABY'] 
                              
                             sizes = [20,27,14,11,9,7,5.5,3.5,3] 
                              
-                            colors = ['gold', 'yellowgreen', 'lightcoral', 
-'lightskyblue','cyan','yellow','pink','m','orange'] 
+                            colors = ['gold', 'yellowgreen', 'lightcoral', 'lightskyblue','cyan','yellow','pink','m','orange'] 
                              
                             explode = (0, 0.1, 0,0,0,0,0,0,0)   
                          
@@ -5401,8 +4990,7 @@ SOLD'.center(200),'yellow'))
                             plt.title("PIE CHART OF PRODEUCTS",fontsize=22,color='red') 
                              
                             plt.pie(sizes,labels=products, explode=explode, 
-                                    colors=colors,wedgeprops = wp, textprops = dict(color 
-="black"), 
+                                    colors=colors,wedgeprops = wp, textprops = dict(color ="black"), 
                                     autopct='%1.1f%%', shadow=True, startangle=120)  
  
                             plt.legend(products,title='PRODUCTS',loc='lower right') 
@@ -5426,8 +5014,6 @@ SOLD'.center(200),'yellow'))
                         elif g_choice==2: 
                              
                             voice.Speak('here is a line chart of growth of dream mart') 
-                             
-#129 
  
                             x = [2014,2015,2016,2017,2018,2019,2020,2021] 
                              
@@ -5468,15 +5054,11 @@ SOLD'.center(200),'yellow'))
  
                             plt.figure(figsize = (15, 5)) 
  
-                            c=['gold', 'yellowgreen', 'lightcoral', 
-'lightskyblue','cyan','yellow','pink','red'] 
+                            c=['gold', 'yellowgreen', 'lightcoral', 'lightskyblue','cyan','yellow','pink','red'] 
  
                             plt.bar(foodgrain,production1,color=c) 
  
-#130 
- 
-                            plt.title("FOODGRAINS, OIL & 
-MASALAS",fontsize=22,color='red') 
+                            plt.title("FOODGRAINS, OIL & MASALAS",fontsize=22,color='red') 
                              
                             plt.xlabel("PRODUCTS") 
  
@@ -5519,8 +5101,6 @@ MASALAS",fontsize=22,color='red')
                             production3=[5000,2000,3000,4000,3500,2500] 
                              
                             plt.figure(figsize = (13, 5)) 
-#131 
- 
  
                             c=['gold', 'yellowgreen', 'lightcoral', 'lightskyblue','cyan','yellow'] 
  
@@ -5565,8 +5145,6 @@ MASALAS",fontsize=22,color='red')
                             instant=["NOODLES,SOUPS & PASTA","JAM & HONEY", 
                                      "BREAKFAST CEREALS","  DESSERT ", 
                                      "SAUCES & PICKELS","PAPPAD & FRYUMS"] 
-#132 
- 
  
                             production5=[5000,2000,3000,4000,3500,2500] 
  
@@ -5588,18 +5166,15 @@ MASALAS",fontsize=22,color='red')
                              
                             voice.Speak('bar graph of beauty and personal care') 
  
-                            cosmatics=["MAKE UP","CREAM & LOTIONS","   SOAP & 
-BODY WASH", 
-                                       "  HAIR OIL & GELS","FACE WASH","DEO & 
-PERFUME", 
+                            cosmatics=["MAKE UP","CREAM & LOTIONS","   SOAP & BODY WASH", 
+                                       "  HAIR OIL & GELS","FACE WASH","DEO & PERFUME", 
                                        "SHAMPOO","TOOTHPASTE "] 
  
                             production6=[1000,1500,2500,1000,1500,1500,2000,1000] 
  
                             plt.figure(figsize = (15, 5)) 
  
-                            c=['gold', 'yellowgreen', 'lightcoral', 
-'lightskyblue','cyan','yellow','pink','red'] 
+                            c=['gold', 'yellowgreen', 'lightcoral', 'lightskyblue','cyan','yellow','pink','red'] 
  
                             plt.bar(cosmatics,production6,color=c) 
  
@@ -5610,8 +5185,6 @@ PERFUME",
                             plt.ylabel("NO. OF PRODUCTS SOLD SO FAR ") 
  
                             plt.show() 
-                             
-#133 
  
                             print('\n') 
                              
@@ -5657,8 +5230,6 @@ PERFUME",
  
                             plt.ylabel("NO. OF PRODUCTS SOLD SO FAR ") 
  
-#134 
- 
                             plt.show() 
                              
                             print('\n') 
@@ -5670,8 +5241,7 @@ PERFUME",
                             graph2=input() 
                              
                             print('\n') 
-     
- 
+      
             else : 
                  
                 break 
@@ -5680,7 +5250,6 @@ PERFUME",
          
         voice.Speak('THANK YOU FOR VISITING DREAM MART') 
          
-        print(colored('THANK YOU FOR VISITING DREAM 
-MART'.center(180),'red')) 
+        print(colored('THANK YOU FOR VISITING DREAM MART'.center(180),'red')) 
          
         break 
