@@ -212,9 +212,9 @@ UP".center(140),'green',attrs=['bold']))
 
  
  
-                server.login('dreammart31@gmail.com','dream1331') 
+                server.login('email','password') #Enter your email ID and password
  
-                server.sendmail('dreammart31@gmail.com',email_id,message) 
+                server.sendmail('email',email_id,message) 
  
                 server.close() 
                  
